@@ -6,22 +6,21 @@ Course notebooks for Fall 2026.
 
 [Open Week2_EDA.ipynb in Google Colab](https://colab.research.google.com/github/omzeybek/Yeditepe_Data_Science_DATS511/blob/main/Week2_EDA.ipynb)
 
-The notebook is an in-class exercise using 554 fictional individuals localized for Türkiye. It includes raw summaries, frequency tables, annotated boxplots, histograms, grouped comparisons, stem-and-leaf output, mirrored population-style charts, a wage/wealth scatterplot, missingness and variation checks, targeted imputation, contextual outlier handling, and a wealth transformation discussion.
+The notebook is an in-class exercise using 554 fictional individuals localized for Türkiye. It creates the dataset directly in Python and keeps the raw data, cleaned data, and reports in memory. It includes raw summaries, frequency tables, annotated boxplots, histograms, grouped comparisons, stem-and-leaf output, mirrored population-style charts, a wage/wealth scatterplot, missingness and variation checks, targeted imputation, contextual outlier handling, and a wealth transformation discussion.
+
+Every notebook cell contains at most eight lines except the explicitly marked dataset-generation cell. Analysis steps are split into short, explained operations, including separate stages for selecting data, calculating summaries, building plots, and checking results.
 
 ### Run in Colab
 
 1. Open the notebook using the link above and run cells from top to bottom.
-2. Authorize your own Google Drive when the mounting cell prompts you.
-3. The notebook creates `MyDrive/DATS511/Week2/week2_personal_data.csv` from its fixed-seed generator if the file is absent. You can instead put the supplied CSV in that folder before running it. Existing data files are preserved.
-4. Cleaned data and quality reports are exported to the separate `outputs/` folder in that Drive directory.
+2. Run the data-preparation cell, then call the generator to create `df`.
+3. Follow the short analysis cells. The original data remain in `df_raw`, and preprocessing creates `df_clean`.
 
-Opening the notebook does not itself upload anything to Drive; the mounting and dataset-writing cell does so when you run it with your Google session.
+No Drive mounting, CSV upload, or file loading is needed. The notebook does not automatically write files.
 
 ### Run locally
 
-Use Python 3.12, install the tested packages with `python -m pip install -r requirements.txt`, and launch `jupyter lab` from the repository root. Open `Week2_EDA.ipynb` and run all cells. It loads the included CSV from `data/` and writes analysis exports to `outputs/`.
-
-The optional `DATS511_DATA_PATH` and `DATS511_OUTPUT_DIR` environment variables override local input and output paths.
+Use Python 3.12, install the tested packages with `python -m pip install -r requirements.txt`, and launch `jupyter lab`. Open `Week2_EDA.ipynb` and run all cells. The notebook works from any working directory because it generates its own data.
 
 ### Dataset design
 
@@ -34,8 +33,8 @@ The generator uses seed `5112026`. Wealth has a dispersed, positive distribution
 | File | Purpose |
 |---|---|
 | `Week2_EDA.ipynb` | Runnable lesson and embedded dataset generator |
-| `data/week2_personal_data.csv` | Raw 554 × 17 teaching dataset |
-| `data/week2_dataset_metadata.json` | Units, seed, missingness, and injection provenance |
+| `data/week2_personal_data.csv` | Optional reference snapshot; the notebook does not read it |
+| `data/week2_dataset_metadata.json` | Reference units, seed, missingness, and injection provenance |
 | `requirements.txt` | Package versions used for local validation |
 
-The notebook's full execution is validated in a fresh Python kernel. Colab's interactive Drive authorization must be completed in your own Google session.
+The notebook's full execution is validated in a fresh Python kernel from an empty working directory, together with the eight-line cell limit.
