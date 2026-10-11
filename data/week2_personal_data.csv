@@ -1,0 +1,555 @@
+name,surname,person_id,age,occupation,sex,weight_kg,height_cm,education_years,education_level,monthly_wage_try,wealth_try,home_sqm,city,yks_score,university_completed,department_completed
+Selin,Aydın,SYN0001,43,Akademisyen,Kadın,68.2,164.0,25,Doktora,162788.01,21900217.39,105.6,Adana,443.6,Orta Doğu Teknik Üniversitesi,İktisat
+Derya,Çelik,SYN0002,46,Öğretmen,Kadın,59.0,166.1,16,Lisans,58821.36,21548820.3,156.5,Adana,327.9,Anadolu Üniversitesi,İstatistik
+Derya,Şahin,SYN0003,33,Muhasebeci,Kadın,58.6,160.0,16,Lisans,70206.4,201294.3,95.9,Mersin,265.8,Ankara Üniversitesi,Matematik
+Özge,Yılmaz,SYN0004,43,Araştırmacı,Kadın,54.3,159.9,22,Doktora,122108.79,5310461.73,108.1,İzmir,392.8,Dokuz Eylül Üniversitesi,İktisat
+Ece,Demir,SYN0005,61,Sağlık teknikeri,Kadın,74.3,160.0,14,Ön Lisans,42364.73,507656.32,91.8,Bursa,254.8,Ege Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Ahmet,Şahin,SYN0006,48,Öğretmen,Erkek,94.3,173.5,16,Lisans,93629.61,12976888.29,124.5,Konya,281.2,Orta Doğu Teknik Üniversitesi,İktisat
+Ayşe,Doğan,SYN0007,48,Mühendis,Kadın,66.6,162.4,18,Yüksek Lisans,95185.27,1311368.52,97.0,Antalya,267.8,Anadolu Üniversitesi,İşletme
+Deniz,Aksoy,SYN0008,19,İdari personel,Erkek,65.5,175.4,12,Lise,63971.23,1769582.56,96.9,Kayseri,267.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Selin,Yıldız,SYN0009,40,Satış danışmanı,Kadın,64.6,161.4,12,Lise,54942.96,5162110.36,118.4,Diyarbakır,234.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Öztürk,SYN0010,66,Emekli,Kadın,61.3,153.5,12,Lise,28163.93,1224815.97,119.4,Ankara,190.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Güneş,SYN0011,42,İşsiz,Erkek,91.9,185.7,16,Lisans,0.0,128234277.7,154.3,Diyarbakır,254.5,Dokuz Eylül Üniversitesi,Matematik
+Uğur,Kılıç,SYN0012,49,İdari personel,Erkek,95.8,183.6,12,Lise,39854.98,180054.11,120.3,Antalya,246.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Öztürk,SYN0013,40,Muhasebeci,Erkek,83.2,171.8,16,Lisans,56093.02,46039589.67,168.1,Kayseri,361.1,Yeditepe Üniversitesi,İşletme
+Deniz,Kurt,SYN0014,72,Emekli,Erkek,58.3,165.1,12,Lise,21753.22,786804.3,78.9,Eskişehir,237.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Kaya,SYN0015,44,İşçi,Kadın,70.7,164.3,5,İlkokul,56119.65,1286013.33,116.2,Diyarbakır,164.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Öztürk,SYN0016,63,Yazılım geliştirici,Kadın,74.9,168.6,18,Yüksek Lisans,78199.64,29975405.22,171.4,İzmir,268.4,İstanbul Üniversitesi,Veri Bilimi
+Mustafa,Öztürk,SYN0017,56,Öğretmen,Erkek,76.9,162.8,16,Lisans,65294.36,33572213.28,136.9,Eskişehir,257.6,İstanbul Üniversitesi,İktisat
+Mustafa,Aydın,SYN0018,46,Yönetici,Erkek,79.8,187.6,18,Yüksek Lisans,122811.89,127951.91,71.5,Eskişehir,338.8,Yeditepe Üniversitesi,Veri Bilimi
+Derya,Kurt,SYN0019,46,Muhasebeci,Kadın,50.0,154.7,16,Lisans,81071.8,3589712.96,124.4,İzmir,271.6,Dokuz Eylül Üniversitesi,İktisat
+Oğuz,Kılıç,SYN0020,21,Tekniker,Erkek,56.2,168.0,14,Ön Lisans,25277.2,6609050.4,118.4,Gaziantep,151.0,Anadolu Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Merve,Şahin,SYN0021,43,Muhasebeci,Kadın,81.5,173.6,16,Lisans,41703.23,5880608.72,106.3,İzmir,293.6,Ankara Üniversitesi,İşletme
+Mehmet,Arslan,SYN0022,68,Emekli,Erkek,87.0,180.1,18,Yüksek Lisans,78056.15,69116149.67,142.1,Kayseri,239.6,Ankara Üniversitesi,İşletme
+Ayşe,Doğan,SYN0023,63,Akademisyen,Kadın,64.9,161.1,24,Doktora,126946.67,1378890.84,105.7,Diyarbakır,396.9,Ankara Üniversitesi,İşletme
+Selin,Güneş,SYN0024,42,Şoför,Kadın,44.7,152.9,12,Lise,37038.81,196038.31,117.3,Gaziantep,185.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Doğan,SYN0025,32,İşletme sahibi,Erkek,85.3,172.1,12,Lise,32851.14,5912339.91,111.2,Mersin,224.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Kılıç,SYN0026,49,Muhasebeci,Kadın,62.4,164.4,16,Lisans,119405.58,2294882.55,100.3,Samsun,328.3,Yeditepe Üniversitesi,İktisat
+Emre,Kaya,SYN0027,29,İşçi,Erkek,83.4,178.9,5,İlkokul,21638.38,9016274.13,124.8,Samsun,212.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Aydın,SYN0028,62,Emekli,Kadın,74.9,169.5,16,Lisans,46332.54,3239566.28,114.4,Adana,281.7,İstanbul Üniversitesi,İstatistik
+Fatma,Aydın,SYN0029,71,Emekli,Kadın,58.3,162.5,18,Yüksek Lisans,61959.68,926589.86,92.6,Samsun,295.4,Ankara Üniversitesi,Veri Bilimi
+Uğur,Koç,SYN0030,24,İdari personel,Erkek,80.7,174.3,14,Ön Lisans,54232.29,6711590.78,136.6,Antalya,230.5,Ege Üniversitesi,İşletme Yönetimi
+Murat,Güneş,SYN0031,47,Yazılım geliştirici,Erkek,76.1,178.4,16,Lisans,66711.19,3006114.53,114.6,Samsun,230.7,Marmara Üniversitesi,İktisat
+Ali,Arslan,SYN0032,42,İşçi,Erkek,64.8,171.2,5,İlkokul,21207.77,4658507.53,83.2,İstanbul,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Yıldız,SYN0033,64,Emekli,Kadın,60.6,156.5,12,Lise,26961.16,1003341.97,118.4,Antalya,254.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Arslan,SYN0034,46,Şoför,Kadın,69.5,162.4,12,Lise,35448.56,5799696.94,158.7,İstanbul,228.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Kerem,Aydın,SYN0035,63,Emekli,Erkek,78.0,177.0,18,Yüksek Lisans,39257.26,1453010.48,103.3,Samsun,299.3,Yeditepe Üniversitesi,İstatistik
+Emre,Demir,SYN0036,26,İşsiz,Erkek,62.3,166.9,14,Ön Lisans,0.0,2459441.94,114.1,Gaziantep,282.0,Anadolu Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Özge,Yıldız,SYN0037,35,Yazılım geliştirici,Kadın,56.8,155.0,16,Lisans,42675.62,5877149.06,103.1,İzmir,275.4,Yeditepe Üniversitesi,Matematik
+Deniz,Kurt,SYN0038,51,Yazılım geliştirici,Erkek,70.7,180.1,18,Yüksek Lisans,105106.52,10348846.88,156.2,Samsun,220.9,Dokuz Eylül Üniversitesi,İşletme
+Özge,Çelik,SYN0039,49,Yazılım geliştirici,Kadın,56.1,166.4,16,Lisans,52835.74,7133280.91,111.9,Kayseri,341.1,Anadolu Üniversitesi,Bilgisayar Mühendisliği
+Merve,Kurt,SYN0040,33,Şoför,Kadın,54.7,150.7,12,Lise,27581.16,986492.18,84.2,Diyarbakır,236.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Merve,Şahin,SYN0041,48,Öğretmen,Kadın,69.0,161.2,16,Lisans,70352.24,6112485.85,123.5,İstanbul,263.0,Ege Üniversitesi,İstatistik
+Selin,Güneş,SYN0042,38,İşletme sahibi,Kadın,72.3,166.2,12,Lise,27554.32,191420.92,92.3,Konya,265.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Doğan,SYN0043,69,Emekli,Erkek,63.3,171.4,16,Lisans,47720.64,1404120.64,145.4,Konya,253.5,Yeditepe Üniversitesi,Matematik
+Ece,Yılmaz,SYN0044,66,Şoför,Kadın,73.3,159.6,12,Lise,46967.93,3726569.88,41.6,İzmir,223.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ayşe,Aksoy,SYN0045,51,İşletme sahibi,Kadın,84.2,167.1,12,Lise,91066.29,2883664.57,126.1,Trabzon,257.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Şahin,SYN0046,49,Satış danışmanı,Kadın,90.7,170.6,12,Lise,46835.55,3685419.38,131.6,İstanbul,177.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Öztürk,SYN0047,30,Öğretmen,Kadın,58.6,166.0,18,Yüksek Lisans,132964.65,6573945.27,112.1,Ankara,212.3,Marmara Üniversitesi,Bilgisayar Mühendisliği
+Ayşe,Arslan,SYN0048,28,Satış danışmanı,Kadın,72.4,168.4,12,Lise,29812.82,1078175.13,98.9,Mersin,188.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Kılıç,SYN0049,53,Öğretmen,Erkek,106.8,188.6,16,Lisans,125294.75,31040396.26,166.2,Trabzon,335.9,Dokuz Eylül Üniversitesi,İşletme
+Deniz,Aydın,SYN0050,60,Şoför,Kadın,63.5,161.6,12,Lise,46205.47,10052333.9,147.9,İstanbul,289.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Kaya,SYN0051,73,Tekniker,Erkek,76.2,175.0,14,Ön Lisans,38517.12,3555286.1,123.1,Bursa,240.0,Marmara Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Zeynep,Özdemir,SYN0052,45,Yazılım geliştirici,Kadın,69.5,160.2,16,Lisans,62354.16,3995074.82,126.6,Gaziantep,251.8,Anadolu Üniversitesi,İktisat
+Oğuz,Aksoy,SYN0053,56,Şoför,Erkek,106.4,181.9,12,Lise,37120.96,11869121.42,124.0,Adana,293.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Doğan,SYN0054,56,Satış danışmanı,Erkek,107.0,185.3,12,Lise,49430.23,1828196.18,121.9,Antalya,181.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Oğuz,Kaya,SYN0055,20,Şoför,Erkek,86.6,171.8,12,Lise,46907.18,3063583.02,109.5,İzmir,182.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Demir,SYN0056,31,Mühendis,Erkek,62.3,167.1,16,Lisans,40972.03,309747.25,104.8,Samsun,288.9,Ege Üniversitesi,Matematik
+Özge,Aksoy,SYN0057,30,Tekniker,Kadın,76.2,166.1,14,Ön Lisans,27250.07,3093700.17,61.7,Samsun,326.0,Orta Doğu Teknik Üniversitesi,İşletme Yönetimi
+Ali,Çelik,SYN0058,41,Esnaf,Erkek,,180.6,8,Ortaokul,38062.42,1355488.63,137.8,Mersin,173.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Can,Şahin,SYN0059,24,Mühendis,Erkek,72.6,176.1,16,Lisans,44365.58,135002.78,111.1,Trabzon,364.1,Dokuz Eylül Üniversitesi,İktisat
+Merve,Kurt,SYN0060,75,Emekli,Kadın,62.5,171.9,14,Ön Lisans,20606.44,25754413.69,131.4,İstanbul,301.2,Anadolu Üniversitesi,İşletme Yönetimi
+Oğuz,Güneş,SYN0061,54,İşletme sahibi,Erkek,88.8,182.9,12,Lise,42857.32,38553707.66,171.5,Antalya,275.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Elif,Aydın,SYN0062,58,Satış danışmanı,Kadın,58.1,161.3,12,Lise,60193.63,4558199.06,133.6,Trabzon,238.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ece,Aksoy,SYN0063,57,Öğretmen,Kadın,62.2,153.3,18,Yüksek Lisans,122862.42,238379.11,101.2,Adana,338.5,Orta Doğu Teknik Üniversitesi,İktisat
+Ahmet,Kaya,SYN0064,66,Emekli,Erkek,72.8,181.2,8,Ortaokul,22501.84,644126.95,141.7,Samsun,265.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Can,Şahin,SYN0065,34,Araştırmacı,Erkek,74.7,180.9,25,Doktora,83779.71,1477019.84,111.2,Kayseri,398.8,Ege Üniversitesi,İşletme
+Esra,Aydın,SYN0066,28,Araştırmacı,Kadın,62.6,168.1,22,Doktora,96962.72,14891642.96,164.0,Trabzon,343.9,Ege Üniversitesi,İktisat
+Özge,Doğan,SYN0067,21,Şoför,Kadın,75.3,170.7,8,Ortaokul,51337.18,194546.92,78.5,Mersin,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Emre,Aydın,SYN0068,23,İdari personel,Erkek,71.7,171.2,14,Ön Lisans,27577.49,1541922.44,109.8,Konya,150.0,Dokuz Eylül Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Merve,Kurt,SYN0069,37,Muhasebeci,Kadın,55.2,170.2,16,Lisans,69487.39,12763826.91,93.8,Mersin,309.3,İstanbul Üniversitesi,İşletme
+Kerem,Yıldız,SYN0070,30,Muhasebeci,Erkek,69.9,175.1,16,Lisans,74853.81,282404.12,95.0,Kayseri,265.4,Hacettepe Üniversitesi,Bilgisayar Mühendisliği
+Ayşe,Arslan,SYN0071,67,Emekli,Kadın,77.4,167.1,8,Ortaokul,10814.13,13414604.43,160.5,Kayseri,181.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Emre,Şahin,SYN0072,56,Satış danışmanı,Erkek,57.4,164.6,12,Lise,44550.06,5111902.09,137.5,İstanbul,213.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Doğan,SYN0073,54,Muhasebeci,Erkek,68.6,173.1,16,Lisans,50745.56,1464820.07,58.9,Diyarbakır,271.2,Hacettepe Üniversitesi,İktisat
+Elif,Koç,SYN0074,32,Satış danışmanı,Kadın,62.2,152.8,12,Lise,20176.01,698753.82,62.4,Konya,177.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ayşe,Yılmaz,SYN0075,24,Mühendis,Kadın,53.8,149.8,18,Yüksek Lisans,28357.97,126504.97,53.7,İstanbul,306.1,Anadolu Üniversitesi,Veri Bilimi
+Fatma,Öztürk,SYN0076,49,Muhasebeci,Kadın,69.1,164.5,16,Lisans,70010.8,24370842.86,173.9,Trabzon,361.6,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Oğuz,Demir,SYN0077,51,Şoför,Erkek,94.6,181.9,8,Ortaokul,35541.6,5203871.0,134.9,Mersin,213.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Kerem,Güneş,SYN0078,67,Emekli,Erkek,70.4,178.4,12,Lise,21199.57,228480.79,84.7,Samsun,199.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Demir,SYN0079,32,İşsiz,Erkek,85.0,179.6,16,Lisans,0.0,6770262.48,158.8,Konya,361.3,İstanbul Üniversitesi,Sınıf Öğretmenliği
+Ece,Şahin,SYN0080,75,Emekli,Kadın,63.5,152.8,12,Lise,21152.47,622987.1,100.9,Mersin,282.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Yıldız,SYN0081,75,Satış danışmanı,Erkek,80.8,169.4,12,Lise,32472.68,43017402.71,126.4,İzmir,268.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Selin,Aydın,SYN0082,71,Emekli,Kadın,57.8,157.3,18,Yüksek Lisans,52727.17,1090672.47,100.3,İzmir,301.3,Yeditepe Üniversitesi,İşletme
+Esra,Aydın,SYN0083,75,İşletme sahibi,Kadın,65.5,160.7,12,Lise,41985.5,3714949.98,98.8,Eskişehir,191.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Öztürk,SYN0084,51,Satış danışmanı,Erkek,101.4,175.1,12,Lise,20658.35,29555202.47,140.7,Kayseri,188.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Selin,Yılmaz,SYN0085,24,İdari personel,Kadın,61.9,159.5,12,Lise,18050.61,1760020.08,121.1,Eskişehir,256.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Özdemir,SYN0086,65,Emekli,Kadın,64.9,167.4,14,Ön Lisans,33313.35,13549642.02,152.0,Gaziantep,309.0,Orta Doğu Teknik Üniversitesi,İşletme Yönetimi
+Elif,Kılıç,SYN0087,67,Tekniker,Kadın,66.4,157.9,14,Ön Lisans,36527.37,8002827.31,123.0,Ankara,204.9,Ankara Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Emre,Arslan,SYN0088,24,Mühendis,Erkek,92.4,183.7,16,Lisans,73508.92,1863126.3,85.8,Adana,321.9,Anadolu Üniversitesi,Sınıf Öğretmenliği
+Merve,Arslan,SYN0089,33,İdari personel,Kadın,61.0,158.2,12,Lise,34347.21,5952950.82,145.5,Adana,308.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Koç,SYN0090,73,Esnaf,Erkek,88.4,165.4,8,Ortaokul,34819.26,3010837.56,91.2,İzmir,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mehmet,Kurt,SYN0091,67,İşçi,Erkek,90.2,173.8,8,Ortaokul,41462.17,2352865.53,123.5,İstanbul,191.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Koç,SYN0092,60,Emekli,Erkek,67.2,159.8,12,Lise,12039.07,1103393.71,68.4,İzmir,190.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Aydın,SYN0093,55,Yazılım geliştirici,Erkek,91.6,183.0,18,Yüksek Lisans,97183.37,42871580.53,160.9,Konya,347.4,Dokuz Eylül Üniversitesi,Veri Bilimi
+Burak,Kılıç,SYN0094,68,Esnaf,Erkek,98.8,177.0,8,Ortaokul,42303.87,1725365.68,98.9,Antalya,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Demir,SYN0095,30,Yönetici,Kadın,79.6,162.4,24,Doktora,85460.71,899215.11,86.1,Samsun,333.3,İstanbul Üniversitesi,Bilgisayar Mühendisliği
+Uğur,Güneş,SYN0096,74,İşletme sahibi,Erkek,71.0,174.0,12,Lise,42000.43,303637.13,118.9,Bursa,336.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Demir,SYN0097,66,Satış danışmanı,Erkek,76.8,178.6,12,Lise,56186.93,183682.77,91.4,Gaziantep,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Emre,Demir,SYN0098,50,Muhasebeci,Erkek,78.4,171.2,16,Lisans,78382.06,1445359.86,116.9,Antalya,172.9,Marmara Üniversitesi,Matematik
+Derya,Koç,SYN0099,36,Tekniker,Kadın,54.4,151.9,14,Ön Lisans,66719.77,2002125.9,126.2,Konya,309.6,Marmara Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Can,Kurt,SYN0100,73,Emekli,Erkek,80.5,172.3,16,Lisans,48466.47,33258490.89,163.8,Konya,223.7,Orta Doğu Teknik Üniversitesi,Sınıf Öğretmenliği
+Emre,Aksoy,SYN0101,62,Emekli,Erkek,86.7,169.6,24,Doktora,51516.61,1340729.92,83.8,İzmir,348.8,Anadolu Üniversitesi,Bilgisayar Mühendisliği
+Fatma,Şahin,SYN0102,24,İdari personel,Kadın,70.1,152.5,12,Lise,21535.91,4608763.74,55.1,Kayseri,213.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Kılıç,SYN0103,65,Emekli,Erkek,98.7,176.1,16,Lisans,35894.63,344056.4,72.7,Gaziantep,306.2,Ege Üniversitesi,İstatistik
+Ayşe,Aksoy,SYN0104,49,Şoför,Kadın,85.2,166.6,12,Lise,49140.33,6253662.13,178.5,Gaziantep,202.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Çelik,SYN0105,68,Emekli,Erkek,85.3,176.8,16,Lisans,47475.87,8737781.7,156.3,Samsun,294.5,Anadolu Üniversitesi,Matematik
+Kerem,Kurt,SYN0106,44,İdari personel,Erkek,82.4,183.7,12,Lise,35264.41,2276123.63,104.5,Diyarbakır,213.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Can,Öztürk,SYN0107,28,Tekniker,Erkek,74.6,168.7,14,Ön Lisans,37406.74,8838569.99,98.1,Antalya,328.5,Ankara Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Mehmet,Aydın,SYN0108,60,Tekniker,Erkek,78.9,178.9,14,Ön Lisans,46028.89,3184828.56,122.1,Gaziantep,300.3,Ankara Üniversitesi,İşletme Yönetimi
+Can,Şahin,SYN0109,56,İşçi,Erkek,73.1,177.5,8,Ortaokul,27649.25,6031642.94,102.7,Diyarbakır,247.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Demir,SYN0110,47,Esnaf,Kadın,72.5,160.7,5,İlkokul,38965.13,3935008.42,147.2,Adana,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Kılıç,SYN0111,57,Öğretmen,Erkek,54.8,169.2,16,Lisans,78900.19,4394412.66,135.3,Diyarbakır,252.5,İstanbul Üniversitesi,İstatistik
+Mehmet,Demir,SYN0112,52,Çiftçi,Erkek,71.8,173.9,5,İlkokul,24918.78,1091289.17,108.1,Samsun,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Kaya,SYN0113,45,Yazılım geliştirici,Erkek,77.0,172.2,18,Yüksek Lisans,83594.96,1777309.76,135.7,Diyarbakır,316.8,Hacettepe Üniversitesi,İşletme
+Merve,Yılmaz,SYN0114,53,Muhasebeci,Kadın,74.3,159.0,16,Lisans,37134.94,20905817.95,139.6,Diyarbakır,289.1,İstanbul Üniversitesi,İktisat
+Deniz,Kılıç,SYN0115,59,Esnaf,Kadın,87.0,184.6,8,Ortaokul,42324.05,431792.46,57.6,Kayseri,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Merve,Doğan,SYN0116,28,Satış danışmanı,Kadın,75.6,159.7,12,Lise,43456.17,29450929.49,127.2,Gaziantep,233.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Güneş,SYN0117,42,İdari personel,Erkek,71.4,180.1,14,Ön Lisans,33721.14,661529.25,75.2,Mersin,298.8,Yeditepe Üniversitesi,Bilgisayar Programcılığı
+Merve,Demir,SYN0118,52,Tekniker,Kadın,80.0,168.5,14,Ön Lisans,70918.4,2116566.83,106.8,Bursa,260.0,Ege Üniversitesi,Bilgisayar Programcılığı
+Kerem,Doğan,SYN0119,23,Satış danışmanı,Erkek,79.3,180.8,12,Lise,46914.4,850505.46,139.9,Kayseri,248.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Öztürk,SYN0120,61,Şoför,Kadın,69.6,159.9,12,Lise,50254.33,167281852.23,149.2,Antalya,254.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Çelik,SYN0121,38,Mühendis,Erkek,114.0,187.3,16,Lisans,61200.22,1612191.22,127.9,Mersin,263.0,İstanbul Üniversitesi,İstatistik
+Kerem,Güneş,SYN0122,29,Sağlık teknikeri,Erkek,77.1,181.8,14,Ön Lisans,37509.35,168618.7,140.0,İzmir,220.6,Orta Doğu Teknik Üniversitesi,İşletme Yönetimi
+Murat,Yıldız,SYN0123,43,Öğretmen,Erkek,77.8,176.7,16,Lisans,69386.01,6700427.98,132.8,İzmir,312.3,Orta Doğu Teknik Üniversitesi,Bilgisayar Mühendisliği
+Zeynep,Koç,SYN0124,68,Çiftçi,Kadın,51.9,156.5,5,İlkokul,52031.94,1370749.13,88.2,İstanbul,158.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Aydın,SYN0125,27,Öğretmen,Kadın,77.4,164.5,16,Lisans,66383.95,1782296.06,133.1,Gaziantep,282.1,Hacettepe Üniversitesi,Matematik
+Mustafa,Özdemir,SYN0126,45,Şoför,Erkek,99.7,177.1,8,Ortaokul,25052.95,5754270.01,97.2,Trabzon,262.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Aksoy,SYN0127,22,Muhasebeci,Kadın,76.6,176.7,16,Lisans,54280.31,331008.21,148.3,Bursa,343.7,Ankara Üniversitesi,Sınıf Öğretmenliği
+Selin,Doğan,SYN0128,39,İşçi,Kadın,82.8,171.8,5,İlkokul,32481.94,10444505.53,165.0,İstanbul,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Can,Öztürk,SYN0129,42,İşletme sahibi,Erkek,94.1,179.1,12,Lise,29138.71,593528.23,112.3,Adana,264.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ece,Güneş,SYN0130,49,Satış danışmanı,Kadın,83.6,169.7,12,Lise,59532.03,2519723.0,145.1,Samsun,216.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Aydın,SYN0131,62,Emekli,Kadın,63.9,160.3,16,Lisans,52060.58,1654572.77,72.7,Samsun,259.2,Dokuz Eylül Üniversitesi,Bilgisayar Mühendisliği
+Fatma,Güneş,SYN0132,39,Satış danışmanı,Kadın,62.4,166.9,12,Lise,28047.55,218304587.76,170.5,İstanbul,262.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Doğan,SYN0133,43,Mühendis,Kadın,57.3,157.5,18,Yüksek Lisans,60752.78,2679553.16,103.4,Konya,377.4,Orta Doğu Teknik Üniversitesi,Bilgisayar Mühendisliği
+Murat,Aksoy,SYN0134,29,Şoför,Erkek,77.3,179.5,12,Lise,27865.42,3401256.79,119.3,Trabzon,194.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Selin,Öztürk,SYN0135,41,Esnaf,Kadın,62.5,154.6,5,İlkokul,48021.44,328214.9,82.4,Antalya,207.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Kurt,SYN0136,62,İşsiz,Erkek,103.8,183.1,16,Lisans,0.0,404760.65,86.9,Konya,372.3,İstanbul Üniversitesi,İstatistik
+Ali,Arslan,SYN0137,41,Öğretmen,Erkek,70.3,177.0,16,Lisans,109627.28,202460.31,112.0,Mersin,277.8,Ege Üniversitesi,Sınıf Öğretmenliği
+Ayşe,Özdemir,SYN0138,37,Akademisyen,Kadın,50.6,152.6,22,Doktora,75551.04,1953261.66,134.9,Adana,424.8,Dokuz Eylül Üniversitesi,İşletme
+Fatma,Kurt,SYN0139,36,Satış danışmanı,Kadın,67.8,169.8,12,Lise,38040.44,8677793.14,140.9,Adana,263.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Demir,SYN0140,30,Esnaf,Kadın,81.1,170.3,8,Ortaokul,27632.86,234670.09,90.6,Kayseri,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Kılıç,SYN0141,65,Emekli,Erkek,71.1,177.6,25,Doktora,56929.68,822149.85,110.3,Ankara,414.8,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Esra,Öztürk,SYN0142,34,İdari personel,Kadın,69.9,161.3,12,Lise,56940.25,6987777.61,75.7,Konya,209.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Çelik,SYN0143,61,Emekli,Kadın,63.1,171.9,14,Ön Lisans,30237.06,13586817.62,102.6,Bursa,210.3,Anadolu Üniversitesi,Bilgisayar Programcılığı
+Esra,Arslan,SYN0144,31,İdari personel,Kadın,74.9,166.7,14,Ön Lisans,66537.0,8157526.0,157.9,İzmir,297.2,Orta Doğu Teknik Üniversitesi,Bilgisayar Programcılığı
+Özge,Koç,SYN0145,68,Emekli,Kadın,51.3,157.6,8,Ortaokul,26296.09,2186811.5,102.1,Ankara,154.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Demir,SYN0146,58,Yönetici,Kadın,69.9,163.2,25,Doktora,115861.75,8081691.34,81.9,Gaziantep,353.0,Dokuz Eylül Üniversitesi,Bilgisayar Mühendisliği
+Selin,Arslan,SYN0147,37,İşçi,Kadın,88.0,171.8,5,İlkokul,45371.87,2047857.77,137.9,Gaziantep,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Özdemir,SYN0148,24,İşletme sahibi,Kadın,58.0,168.4,12,Lise,30293.54,7694331.36,104.5,Samsun,241.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Şahin,SYN0149,21,Sağlık teknikeri,Erkek,81.3,177.4,14,Ön Lisans,24851.56,753090.5,109.4,Trabzon,235.7,İstanbul Üniversitesi,Bilgisayar Programcılığı
+Elif,Kılıç,SYN0150,19,Şoför,Kadın,58.5,154.8,12,Lise,21547.59,6281038.69,109.5,İstanbul,187.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Öztürk,SYN0151,70,Emekli,Kadın,68.9,161.8,12,Lise,26301.27,1627801.27,100.5,Mersin,158.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Oğuz,Aydın,SYN0152,22,Muhasebeci,Erkek,87.4,179.6,16,Lisans,49255.51,627950.98,127.0,Ankara,285.5,Ege Üniversitesi,Bilgisayar Mühendisliği
+Özge,Kılıç,SYN0153,55,Esnaf,Kadın,65.9,159.3,5,İlkokul,28417.61,1617799.96,90.7,Diyarbakır,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Kılıç,SYN0154,22,Öğrenci,Erkek,80.5,173.1,12,Lise,0.0,3181262.22,96.7,Samsun,270.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mehmet,Koç,SYN0155,61,Muhasebeci,Erkek,72.1,175.2,16,Lisans,44010.7,26114019.53,112.6,Eskişehir,345.5,Ankara Üniversitesi,Bilgisayar Mühendisliği
+Deniz,Kılıç,SYN0156,70,Emekli,Kadın,54.6,164.7,16,Lisans,51167.46,19532887.34,115.4,Gaziantep,368.5,Marmara Üniversitesi,İstatistik
+Deniz,Aydın,SYN0157,68,Yazılım geliştirici,Kadın,67.1,158.2,18,Yüksek Lisans,104121.61,2975370.06,82.4,İzmir,313.8,Yeditepe Üniversitesi,İşletme
+Can,Demir,SYN0158,36,Sağlık teknikeri,Erkek,85.3,175.0,14,Ön Lisans,37907.21,4350497.14,157.1,Samsun,297.8,Ankara Üniversitesi,Bilgisayar Programcılığı
+Emre,Çelik,SYN0159,24,Sağlık teknikeri,Erkek,71.6,174.1,14,Ön Lisans,66902.66,612859.78,114.7,Bursa,289.1,Orta Doğu Teknik Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Oğuz,Aydın,SYN0160,46,İşletme sahibi,Erkek,87.9,186.8,12,Lise,46426.39,1734498.97,90.7,Kayseri,253.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Demir,SYN0161,68,Satış danışmanı,Kadın,73.8,162.3,8,Ortaokul,28251.98,2581185.4,142.3,Kayseri,184.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Öztürk,SYN0162,68,Şoför,Kadın,59.5,160.0,12,Lise,47808.7,4650429.21,125.6,Diyarbakır,291.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ece,Koç,SYN0163,75,Emekli,Kadın,61.7,160.8,12,Lise,30002.36,122635662.59,178.7,Antalya,232.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Kurt,SYN0164,23,İşçi,Erkek,62.7,157.1,8,Ortaokul,27877.2,340218.58,52.5,Kayseri,178.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Kerem,Çelik,SYN0165,49,İşletme sahibi,Erkek,73.8,179.0,12,Lise,39851.16,9757595.71,133.1,İstanbul,239.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Emre,Şahin,SYN0166,50,İdari personel,Erkek,67.6,168.1,14,Ön Lisans,64904.51,11860754.57,130.8,Gaziantep,182.3,Orta Doğu Teknik Üniversitesi,İşletme Yönetimi
+Deniz,Şahin,SYN0167,34,Şoför,Kadın,63.0,160.0,12,Lise,26578.41,246604.14,77.7,Gaziantep,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Koç,SYN0168,63,Emekli,Erkek,80.7,181.1,12,Lise,13088.31,216700.3,82.8,Diyarbakır,246.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Merve,Özdemir,SYN0169,41,İdari personel,Kadın,52.8,160.0,12,Lise,34383.45,230120.19,87.3,Mersin,275.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Elif,Kurt,SYN0170,22,Muhasebeci,Kadın,78.0,175.4,16,Lisans,100364.23,47397933.01,149.7,İstanbul,291.1,Orta Doğu Teknik Üniversitesi,Matematik
+Burak,Yıldız,SYN0171,37,Satış danışmanı,Erkek,90.1,186.3,12,Lise,24206.41,54442493.4,191.9,Kayseri,270.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ayşe,Güneş,SYN0172,55,İşletme sahibi,Kadın,62.0,159.1,12,Lise,48139.07,7082234.14,85.1,Antalya,274.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Kılıç,SYN0173,67,Yazılım geliştirici,Kadın,71.3,163.0,16,Lisans,73884.94,8197705.85,118.8,Bursa,186.8,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Selin,Yılmaz,SYN0174,39,Satış danışmanı,Kadın,72.3,160.3,12,Lise,50184.96,8016360.43,108.7,Ankara,227.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Kurt,SYN0175,59,Satış danışmanı,Erkek,85.3,179.7,12,Lise,33943.41,1607713.13,134.0,Ankara,211.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Çelik,SYN0176,65,Emekli,Kadın,70.1,159.5,23,Doktora,81724.59,18053775.79,150.7,Adana,462.9,Hacettepe Üniversitesi,Bilgisayar Mühendisliği
+Zeynep,Kaya,SYN0177,24,Yönetici,Kadın,75.1,163.1,18,Yüksek Lisans,76966.92,815652.53,123.6,Adana,348.9,Ankara Üniversitesi,İşletme
+Deniz,Arslan,SYN0178,58,Öğretmen,Erkek,100.8,190.9,16,Lisans,36743.82,2959014.32,148.9,Adana,280.7,Hacettepe Üniversitesi,Matematik
+Uğur,Koç,SYN0179,43,Şoför,Erkek,77.0,171.8,12,Lise,38248.31,4113715.29,82.5,Bursa,232.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Özge,Doğan,SYN0180,33,İdari personel,Kadın,61.2,160.6,14,Ön Lisans,37415.22,3923434.39,135.3,Kayseri,287.5,Yeditepe Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Emre,Yıldız,SYN0181,19,İşçi,Erkek,84.7,180.3,8,Ortaokul,36549.81,34035391.21,162.3,Kayseri,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Özdemir,SYN0182,39,Öğretmen,Erkek,104.6,184.6,16,Lisans,62514.58,4105174.49,145.7,İstanbul,290.8,Ege Üniversitesi,Bilgisayar Mühendisliği
+Kerem,Öztürk,SYN0183,24,Muhasebeci,Erkek,68.1,173.0,16,Lisans,55420.71,1888841.03,147.6,Bursa,335.3,Marmara Üniversitesi,İstatistik
+Elif,Doğan,SYN0184,30,Çiftçi,Kadın,85.5,174.7,5,İlkokul,27686.27,15394646.24,127.9,Eskişehir,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Doğan,SYN0185,74,İşçi,Kadın,75.6,167.8,8,Ortaokul,54018.57,3896542.62,110.4,Konya,219.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Kerem,Demir,SYN0186,73,Yazılım geliştirici,Erkek,74.9,175.6,16,Lisans,59492.99,375675.16,103.5,Ankara,318.8,Hacettepe Üniversitesi,İstatistik
+Ali,Yılmaz,SYN0187,60,Emekli,Erkek,79.9,169.7,18,Yüksek Lisans,49113.5,12146606.27,162.9,Antalya,292.9,İstanbul Üniversitesi,İstatistik
+Özge,Aydın,SYN0188,71,İşsiz,Kadın,69.8,163.5,14,Ön Lisans,0.0,2705255.88,101.2,Mersin,291.8,Orta Doğu Teknik Üniversitesi,İşletme Yönetimi
+Burak,Yılmaz,SYN0189,46,İdari personel,Erkek,64.6,179.1,12,Lise,36309.73,246812.11,67.9,Adana,281.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Özge,Kaya,SYN0190,55,Esnaf,Kadın,69.5,161.4,8,Ortaokul,27007.03,46824840.1,179.8,Bursa,167.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Emre,Çelik,SYN0191,43,Muhasebeci,Erkek,89.2,169.4,16,Lisans,94827.64,2236779.6,122.5,Eskişehir,374.4,Ege Üniversitesi,Bilgisayar Mühendisliği
+Derya,Doğan,SYN0192,34,Sağlık teknikeri,Kadın,64.3,166.5,14,Ön Lisans,,2913595.31,117.0,Kayseri,323.5,Anadolu Üniversitesi,İşletme Yönetimi
+Kerem,Kaya,SYN0193,56,Tekniker,Erkek,88.4,177.2,14,Ön Lisans,44472.12,80966755.51,180.7,Kayseri,238.3,Orta Doğu Teknik Üniversitesi,İşletme Yönetimi
+Kerem,Doğan,SYN0194,28,Yazılım geliştirici,Erkek,90.9,188.5,16,Lisans,53703.88,10874519.47,131.8,Bursa,181.7,Anadolu Üniversitesi,İktisat
+Murat,Özdemir,SYN0195,45,İdari personel,Erkek,71.0,166.3,12,Lise,24455.05,1518090.85,113.2,Eskişehir,262.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Koç,SYN0196,51,Yönetici,Kadın,75.2,161.4,18,Yüksek Lisans,121848.75,71732.8,119.1,Antalya,281.4,İstanbul Üniversitesi,Bilgisayar Mühendisliği
+Oğuz,Demir,SYN0197,50,Şoför,Erkek,76.9,177.2,12,Lise,48948.56,29565877.35,135.8,Trabzon,262.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Selin,Demir,SYN0198,65,Emekli,Kadın,80.6,164.5,16,Lisans,35670.9,6590591.88,138.4,Antalya,271.2,Dokuz Eylül Üniversitesi,İktisat
+Uğur,Doğan,SYN0199,70,Mühendis,Erkek,77.2,175.3,16,Lisans,99512.13,1307787.64,112.0,Ankara,270.8,İstanbul Üniversitesi,İstatistik
+Özge,Şahin,SYN0200,37,Şoför,Kadın,83.5,173.0,8,Ortaokul,54750.06,2145360.59,121.4,Gaziantep,298.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Yılmaz,SYN0201,62,Emekli,Erkek,93.3,180.1,16,Lisans,37442.97,1815750.47,130.1,Konya,262.1,Ege Üniversitesi,İstatistik
+Ali,Kaya,SYN0202,28,İşletme sahibi,Erkek,71.6,168.0,12,Lise,32173.02,2433808.67,110.9,Mersin,207.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Özdemir,SYN0203,32,İşsiz,Erkek,76.4,170.7,16,Lisans,0.0,35989096.27,158.7,Trabzon,217.8,Anadolu Üniversitesi,Sınıf Öğretmenliği
+Burak,Demir,SYN0204,36,İdari personel,Erkek,73.1,172.9,12,Lise,31134.57,3628565.29,120.2,Gaziantep,288.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Kerem,Yıldız,SYN0205,21,Şoför,Erkek,87.8,180.1,12,Lise,38889.82,2104399.0,102.0,Gaziantep,257.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ayşe,Aksoy,SYN0206,64,İdari personel,Kadın,72.1,165.2,12,Lise,33268.43,1759721.29,149.5,Ankara,207.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Yıldız,SYN0207,58,Sağlık teknikeri,Erkek,70.1,173.3,14,Ön Lisans,87509.81,502029.78,108.5,İzmir,300.1,Dokuz Eylül Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Derya,Arslan,SYN0208,20,İdari personel,Kadın,55.4,162.1,14,Ön Lisans,40695.86,351381.0,95.9,Ankara,311.7,İstanbul Üniversitesi,İşletme Yönetimi
+Can,Özdemir,SYN0209,60,İşletme sahibi,Erkek,79.6,179.1,12,Lise,39865.44,5299653.28,125.6,Mersin,264.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Elif,Aydın,SYN0210,49,Yönetici,Kadın,65.7,170.4,25,Doktora,165841.13,2441273.31,94.7,Diyarbakır,406.8,Anadolu Üniversitesi,İşletme
+Kerem,Şahin,SYN0211,62,Şoför,Erkek,79.6,168.2,12,Lise,52504.65,4271010.65,118.2,Adana,159.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Kurt,SYN0212,30,İdari personel,Kadın,81.4,165.2,14,Ön Lisans,41372.28,220491.01,98.8,Antalya,215.6,Ankara Üniversitesi,İşletme Yönetimi
+Derya,Doğan,SYN0213,27,Muhasebeci,Kadın,68.0,152.4,16,Lisans,57517.96,4725742.74,139.3,Antalya,247.6,Marmara Üniversitesi,İstatistik
+Ali,Arslan,SYN0214,68,Öğretmen,Erkek,82.4,160.5,18,Yüksek Lisans,109002.99,2038702.17,107.4,Gaziantep,363.5,Hacettepe Üniversitesi,Veri Bilimi
+Ali,Aydın,SYN0215,26,İdari personel,Erkek,88.2,181.5,12,Lise,32453.31,501666.95,74.9,İstanbul,166.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Selin,Kurt,SYN0216,57,İdari personel,Kadın,70.8,158.8,12,Lise,53443.47,3059510.59,100.9,Samsun,300.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Şahin,SYN0217,75,Emekli,Kadın,71.8,158.8,14,Ön Lisans,21815.82,19553884.82,170.7,İstanbul,308.0,Marmara Üniversitesi,İşletme Yönetimi
+Özge,Demir,SYN0218,59,Mühendis,Kadın,62.1,162.6,16,Lisans,57638.83,1544280.18,81.0,Ankara,330.1,Hacettepe Üniversitesi,İktisat
+Selin,Şahin,SYN0219,73,Emekli,Kadın,82.8,159.1,16,Lisans,35812.69,3676293.9,138.1,İstanbul,283.9,Yeditepe Üniversitesi,Matematik
+İrem,Demir,SYN0220,71,Emekli,Kadın,71.0,167.4,8,Ortaokul,7241.61,1651547.24,134.9,Samsun,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Elif,Güneş,SYN0221,56,İşletme sahibi,Kadın,66.3,162.2,12,Lise,33756.67,45225525.96,159.0,Konya,160.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Aydın,SYN0222,58,Satış danışmanı,Kadın,66.5,161.1,12,Lise,47378.0,12236541.92,149.9,İstanbul,221.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Doğan,SYN0223,45,Esnaf,Erkek,77.3,180.4,5,İlkokul,26699.31,3141121.99,158.8,Gaziantep,184.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Yıldız,SYN0224,60,Emekli,Kadın,92.6,178.4,16,Lisans,45951.52,455734.28,72.1,Samsun,323.9,Ege Üniversitesi,Matematik
+Kerem,Özdemir,SYN0225,19,İşçi,Erkek,85.8,173.2,5,İlkokul,27601.79,2646245.51,91.5,Konya,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ece,Yılmaz,SYN0226,66,Emekli,Kadın,63.3,160.9,5,İlkokul,17606.48,8720492.47,132.2,İstanbul,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Şahin,SYN0227,30,Yazılım geliştirici,Kadın,66.6,160.9,18,Yüksek Lisans,57658.13,555066.05,89.4,İstanbul,241.1,Dokuz Eylül Üniversitesi,İktisat
+Kerem,Kurt,SYN0228,36,Mühendis,Erkek,86.4,182.8,16,Lisans,59824.24,3210759.77,80.5,Konya,305.9,Anadolu Üniversitesi,Matematik
+Mustafa,Aksoy,SYN0229,44,İdari personel,Erkek,70.7,173.6,12,Lise,35730.57,2285467.01,99.1,İzmir,265.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Güneş,SYN0230,24,İşletme sahibi,Erkek,86.8,183.5,12,Lise,31496.05,1755813.61,131.9,Ankara,238.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Oğuz,Yılmaz,SYN0231,37,Satış danışmanı,Erkek,73.9,171.3,8,Ortaokul,34462.95,32385610.93,170.0,Kayseri,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Çelik,SYN0232,70,Yönetici,Erkek,87.4,175.9,24,Doktora,157227.98,190192.27,91.0,İzmir,363.5,Hacettepe Üniversitesi,İstatistik
+Kerem,Yıldız,SYN0233,40,Sağlık teknikeri,Erkek,86.9,178.1,14,Ön Lisans,53896.82,125986.43,82.5,Diyarbakır,271.0,Orta Doğu Teknik Üniversitesi,İşletme Yönetimi
+Emre,Doğan,SYN0234,51,İşsiz,Erkek,65.2,165.2,18,Yüksek Lisans,0.0,47994600.23,198.0,Ankara,285.9,Hacettepe Üniversitesi,İşletme
+Ece,Yıldız,SYN0235,51,Satış danışmanı,Kadın,68.0,161.2,12,Lise,40806.84,15196809.95,150.6,Antalya,218.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mehmet,Demir,SYN0236,75,Emekli,Erkek,87.7,175.2,14,Ön Lisans,22309.47,427376.76,69.5,Konya,172.0,Marmara Üniversitesi,Bilgisayar Programcılığı
+Elif,Yıldız,SYN0237,75,Yönetici,Kadın,53.1,153.9,25,Doktora,108056.84,100064300.51,182.7,Trabzon,422.9,İstanbul Üniversitesi,İşletme
+Zeynep,Özdemir,SYN0238,29,Yazılım geliştirici,Kadın,77.2,168.3,16,Lisans,53214.38,242106.79,72.2,Antalya,269.4,Ege Üniversitesi,Matematik
+Oğuz,Çelik,SYN0239,70,Emekli,Erkek,101.7,181.9,18,Yüksek Lisans,29908.91,19985175.02,156.3,Kayseri,288.2,Marmara Üniversitesi,İktisat
+Murat,Kurt,SYN0240,64,Satış danışmanı,Erkek,83.8,176.2,12,Lise,31512.8,1897371.75,155.0,Mersin,235.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Aksoy,SYN0241,43,Öğretmen,Erkek,80.3,168.1,16,Lisans,64680.47,8013330.14,81.9,Konya,288.0,Hacettepe Üniversitesi,Sınıf Öğretmenliği
+Ayşe,Aksoy,SYN0242,50,Muhasebeci,Kadın,58.7,160.7,16,Lisans,61354.83,8157179.61,104.1,Gaziantep,238.1,Yeditepe Üniversitesi,İşletme
+Mehmet,Kaya,SYN0243,71,Satış danışmanı,Erkek,112.1,177.5,12,Lise,35121.59,1033887.44,105.7,Trabzon,254.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Elif,Aksoy,SYN0244,57,İdari personel,Kadın,57.8,150.2,12,Lise,65424.23,488465.6,105.2,Konya,193.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Aksoy,SYN0245,41,İşletme sahibi,Kadın,69.7,164.5,12,Lise,48396.51,18688022.85,149.6,Eskişehir,258.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Koç,SYN0246,28,Satış danışmanı,Erkek,68.3,172.9,12,Lise,40763.38,1259730.4,121.6,Trabzon,291.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Aksoy,SYN0247,52,Mühendis,Erkek,73.9,174.0,16,Lisans,118556.52,21183585.76,94.2,Ankara,193.7,Hacettepe Üniversitesi,Sınıf Öğretmenliği
+Elif,Kaya,SYN0248,43,İdari personel,Kadın,57.0,159.7,14,Ön Lisans,58478.72,23581406.26,122.2,Trabzon,347.5,Anadolu Üniversitesi,Bilgisayar Programcılığı
+İrem,Şahin,SYN0249,24,Öğretmen,Kadın,53.7,158.3,16,Lisans,64378.28,242036.33,97.8,İstanbul,373.9,Hacettepe Üniversitesi,Sınıf Öğretmenliği
+Ali,Aksoy,SYN0250,70,Esnaf,Erkek,92.0,178.9,8,Ortaokul,33197.83,937132.85,138.5,Bursa,206.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Doğan,SYN0251,21,Şoför,Erkek,77.3,184.0,12,Lise,28143.78,5050177.77,137.1,Adana,316.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Koç,SYN0252,27,Muhasebeci,Erkek,86.1,173.1,16,Lisans,72247.31,1053979.0,152.2,Eskişehir,271.2,İstanbul Üniversitesi,Sınıf Öğretmenliği
+İrem,Çelik,SYN0253,46,Muhasebeci,Kadın,63.8,149.0,16,Lisans,57525.36,2626038.11,109.3,Kayseri,327.4,Ege Üniversitesi,İşletme
+Burak,Kaya,SYN0254,50,Şoför,Erkek,68.6,175.7,12,Lise,38283.03,11539912.38,139.9,Konya,244.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Oğuz,Arslan,SYN0255,26,Şoför,Erkek,97.4,177.4,12,Lise,38227.84,126790.02,98.4,İstanbul,231.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Merve,Yılmaz,SYN0256,50,İdari personel,Kadın,46.2,157.6,12,Lise,76037.05,10711185.24,126.3,Trabzon,252.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mehmet,Aydın,SYN0257,39,Satış danışmanı,Erkek,82.6,176.4,12,Lise,52727.61,568312.43,138.7,Eskişehir,282.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Aydın,SYN0258,40,Öğretmen,Erkek,88.7,172.9,18,Yüksek Lisans,88051.71,29778165.64,125.8,İstanbul,257.1,Hacettepe Üniversitesi,Bilgisayar Mühendisliği
+Deniz,Aksoy,SYN0259,55,Öğretmen,Erkek,92.9,174.7,16,Lisans,95464.6,5387309.87,120.6,Antalya,231.9,Dokuz Eylül Üniversitesi,İşletme
+Deniz,Öztürk,SYN0260,26,İşletme sahibi,Kadın,56.9,158.5,12,Lise,26261.04,201094.81,73.3,Bursa,212.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Çelik,SYN0261,61,Emekli,Erkek,75.5,165.7,18,Yüksek Lisans,46708.11,298067.93,117.8,Ankara,335.3,Dokuz Eylül Üniversitesi,İşletme
+Deniz,Kaya,SYN0262,28,İşsiz,Erkek,86.3,163.9,16,Lisans,0.0,4069516.88,56.2,Gaziantep,226.6,Ankara Üniversitesi,İşletme
+Ayşe,Çelik,SYN0263,33,Çiftçi,Kadın,82.2,173.3,5,İlkokul,22443.86,2687406.68,93.7,Antalya,176.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Yıldız,SYN0264,31,Akademisyen,Kadın,77.7,161.6,25,Doktora,47776.7,5861364.16,127.9,Samsun,385.3,Marmara Üniversitesi,İktisat
+Ece,Yıldız,SYN0265,71,Emekli,Kadın,57.5,154.3,12,Lise,32638.71,5945226.25,113.0,Eskişehir,208.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Doğan,SYN0266,66,Emekli,Erkek,83.4,176.8,18,Yüksek Lisans,56943.6,15359491.06,135.3,İstanbul,323.6,Anadolu Üniversitesi,Bilgisayar Mühendisliği
+Ece,Aksoy,SYN0267,60,Esnaf,Kadın,66.2,170.3,8,Ortaokul,28176.25,36342.99,116.0,Diyarbakır,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Selin,Demir,SYN0268,40,Yazılım geliştirici,Kadın,70.6,154.3,18,Yüksek Lisans,64579.07,2933668.67,118.7,Eskişehir,227.9,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Elif,Öztürk,SYN0269,44,Şoför,Kadın,73.9,160.7,12,Lise,45737.13,10021236.85,123.7,Adana,184.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Elif,Öztürk,SYN0270,26,Esnaf,Kadın,59.9,156.1,8,Ortaokul,22488.74,2253818.92,122.2,Adana,168.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Emre,Kılıç,SYN0271,35,Öğretmen,Erkek,58.6,177.0,16,Lisans,58587.28,442072.32,109.6,Konya,262.7,Anadolu Üniversitesi,İşletme
+Ece,Özdemir,SYN0272,18,Esnaf,Kadın,55.2,149.7,8,Ortaokul,39147.37,4548761.3,112.6,Antalya,216.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ece,Aksoy,SYN0273,66,Muhasebeci,Kadın,69.5,160.7,16,Lisans,87194.4,2791972.18,78.6,Gaziantep,306.7,Yeditepe Üniversitesi,İşletme
+Can,Aydın,SYN0274,29,Mühendis,Erkek,80.4,177.1,18,Yüksek Lisans,54909.68,339718.66,130.1,Eskişehir,220.3,Orta Doğu Teknik Üniversitesi,İktisat
+Can,Kurt,SYN0275,21,İdari personel,Erkek,94.0,189.9,12,Lise,28257.17,703962.98,83.9,Samsun,270.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Yıldız,SYN0276,30,Mühendis,Kadın,63.8,171.6,16,Lisans,76707.42,2051075.81,55.3,Gaziantep,348.0,Dokuz Eylül Üniversitesi,İstatistik
+Özge,Koç,SYN0277,57,Şoför,Kadın,87.1,166.9,12,Lise,32749.16,5707428.46,103.0,Eskişehir,304.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Arslan,SYN0278,31,İdari personel,Kadın,52.5,160.0,12,Lise,26049.54,6038829.63,117.2,Konya,242.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Güneş,SYN0279,42,Muhasebeci,Kadın,68.6,162.2,16,Lisans,72574.17,6005707.89,136.7,Samsun,313.9,Anadolu Üniversitesi,İstatistik
+Fatma,Yılmaz,SYN0280,30,Sağlık teknikeri,Kadın,51.5,163.4,14,Ön Lisans,46709.65,3359139.01,123.5,Bursa,246.7,Ankara Üniversitesi,Bilgisayar Programcılığı
+Emre,Öztürk,SYN0281,51,Mühendis,Erkek,77.2,173.8,16,Lisans,55008.75,3240808.88,103.7,Mersin,326.7,İstanbul Üniversitesi,Bilgisayar Mühendisliği
+Esra,Aksoy,SYN0282,45,Muhasebeci,Kadın,66.5,156.1,16,Lisans,95766.26,28807345.76,133.7,Samsun,225.3,Dokuz Eylül Üniversitesi,İşletme
+Ahmet,Şahin,SYN0283,40,Öğretmen,Erkek,78.2,173.4,16,Lisans,112960.14,1575037.67,86.5,Gaziantep,214.3,Yeditepe Üniversitesi,Sınıf Öğretmenliği
+Mustafa,Şahin,SYN0284,65,Emekli,Erkek,82.1,170.9,12,Lise,24302.72,26462987.12,96.5,Trabzon,240.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Güneş,SYN0285,47,Araştırmacı,Erkek,97.2,175.9,22,Doktora,118698.04,,129.7,Trabzon,325.0,Ege Üniversitesi,Bilgisayar Mühendisliği
+Uğur,Yıldız,SYN0286,33,Şoför,Erkek,69.0,183.3,12,Lise,29034.29,33514655.31,179.0,Trabzon,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Arslan,SYN0287,33,İdari personel,Erkek,82.1,178.8,14,Ön Lisans,51104.77,6905891.16,96.7,Ankara,252.5,Hacettepe Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Ece,Yıldız,SYN0288,22,İdari personel,Kadın,57.8,166.6,14,Ön Lisans,34085.0,609441.36,94.5,Bursa,269.2,Ankara Üniversitesi,Bilgisayar Programcılığı
+Elif,Şahin,SYN0289,48,Tekniker,Kadın,60.4,159.9,14,Ön Lisans,58255.88,2041421.97,134.5,Gaziantep,207.9,Anadolu Üniversitesi,İşletme Yönetimi
+Derya,Koç,SYN0290,74,Emekli,Kadın,80.5,174.4,12,Lise,28506.35,21823977.05,119.5,Samsun,192.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Emre,Kılıç,SYN0291,50,Tekniker,Erkek,93.3,171.8,14,Ön Lisans,42183.13,17438277.23,156.1,Gaziantep,273.4,Ankara Üniversitesi,Bilgisayar Programcılığı
+Mustafa,Koç,SYN0292,67,Emekli,Erkek,65.5,177.4,12,Lise,18698.7,780014.46,77.9,Diyarbakır,211.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Özge,Doğan,SYN0293,58,Satış danışmanı,Kadın,63.0,154.9,12,Lise,60756.98,1460119.32,59.0,Mersin,212.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Doğan,SYN0294,63,Emekli,Erkek,73.3,178.4,14,Ön Lisans,31125.23,24365691.96,153.5,Bursa,307.4,Ege Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Mustafa,Kurt,SYN0295,63,Emekli,Erkek,56.6,175.0,14,Ön Lisans,23488.34,9806145.6,112.1,Samsun,245.9,Marmara Üniversitesi,İşletme Yönetimi
+Emre,Koç,SYN0296,67,Emekli,Erkek,79.5,167.3,8,Ortaokul,30508.41,714425.89,86.9,Samsun,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ece,Doğan,SYN0297,25,Öğretmen,Kadın,70.1,159.8,16,Lisans,66176.97,6960756.76,91.9,Diyarbakır,237.6,Ankara Üniversitesi,Sınıf Öğretmenliği
+Zeynep,Koç,SYN0298,22,Mühendis,Kadın,68.8,182.3,16,Lisans,59172.22,1577653.45,127.5,Mersin,250.1,Dokuz Eylül Üniversitesi,İktisat
+Burak,Yılmaz,SYN0299,71,Emekli,Erkek,52.8,151.0,12,Lise,20514.83,3937710.7,89.7,Mersin,190.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Öztürk,SYN0300,27,Yazılım geliştirici,Erkek,79.3,187.3,18,Yüksek Lisans,28895.38,142419.5,112.4,Gaziantep,325.7,Ege Üniversitesi,İktisat
+Burak,Öztürk,SYN0301,30,Sağlık teknikeri,Erkek,71.9,181.0,14,Ön Lisans,49190.2,1106861.0,144.5,Bursa,183.7,Ankara Üniversitesi,Bilgisayar Programcılığı
+Ayşe,Şahin,SYN0302,29,Muhasebeci,Kadın,70.1,163.5,16,Lisans,41427.97,5831811.19,135.7,Samsun,328.6,Hacettepe Üniversitesi,İstatistik
+Fatma,Yıldız,SYN0303,40,Yazılım geliştirici,Kadın,54.3,158.5,16,Lisans,65318.62,12536451.68,128.4,Antalya,373.4,Orta Doğu Teknik Üniversitesi,Matematik
+Uğur,Demir,SYN0304,75,Emekli,Erkek,70.6,175.3,18,Yüksek Lisans,38775.07,130623.08,135.1,Ankara,297.4,Dokuz Eylül Üniversitesi,Bilgisayar Mühendisliği
+Deniz,Aksoy,SYN0305,25,Mühendis,Kadın,59.6,152.1,16,Lisans,46255.51,4131510.68,89.4,Diyarbakır,230.5,İstanbul Üniversitesi,Matematik
+Mehmet,Arslan,SYN0306,53,Öğretmen,Erkek,86.0,176.0,16,Lisans,86437.3,151894413.23,205.5,Bursa,266.7,Yeditepe Üniversitesi,Matematik
+Oğuz,Özdemir,SYN0307,49,Satış danışmanı,Erkek,79.4,175.0,12,Lise,59818.68,15299473.38,141.2,Ankara,292.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Özge,Aksoy,SYN0308,57,Mühendis,Kadın,65.3,159.2,16,Lisans,84646.68,4428357.82,132.8,Trabzon,265.4,Orta Doğu Teknik Üniversitesi,Sınıf Öğretmenliği
+Burak,Arslan,SYN0309,50,Şoför,Erkek,96.3,191.4,12,Lise,26796.5,3329341.07,143.9,Kayseri,218.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Kaya,SYN0310,48,İdari personel,Erkek,95.2,182.0,14,Ön Lisans,46981.44,234033.61,65.1,İzmir,306.0,Marmara Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Ali,Aydın,SYN0311,70,Emekli,Erkek,79.2,165.6,14,Ön Lisans,38020.45,9943924.99,115.4,Konya,205.8,Yeditepe Üniversitesi,İşletme Yönetimi
+Zeynep,Güneş,SYN0312,35,İdari personel,Kadın,86.1,168.9,14,Ön Lisans,70058.51,2665761.08,146.1,Samsun,275.0,Yeditepe Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Ece,Aksoy,SYN0313,59,Mühendis,Kadın,65.4,162.9,16,Lisans,86178.76,951779.88,112.6,Konya,281.0,Orta Doğu Teknik Üniversitesi,İstatistik
+Kerem,Çelik,SYN0314,26,Satış danışmanı,Erkek,94.0,178.0,8,Ortaokul,23174.97,53848691.5,208.6,Gaziantep,180.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Kurt,SYN0315,49,Mühendis,Kadın,75.5,163.5,16,Lisans,61094.04,52403646.29,168.1,Kayseri,307.4,Ankara Üniversitesi,İstatistik
+Ahmet,Özdemir,SYN0316,26,İşletme sahibi,Erkek,87.8,172.7,12,Lise,37564.04,3454422.43,91.0,Diyarbakır,247.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Yılmaz,SYN0317,33,Yazılım geliştirici,Kadın,82.3,167.4,16,Lisans,45959.64,2022316.12,110.8,Eskişehir,378.4,Dokuz Eylül Üniversitesi,Bilgisayar Mühendisliği
+Mustafa,Öztürk,SYN0318,68,Emekli,Erkek,82.8,175.0,18,Yüksek Lisans,25968.05,2746464.23,74.3,Samsun,280.3,Ankara Üniversitesi,İşletme
+Derya,Kılıç,SYN0319,43,İşletme sahibi,Kadın,73.5,165.5,12,Lise,39960.58,2109241.79,110.8,İstanbul,188.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Özge,Kaya,SYN0320,24,Satış danışmanı,Kadın,59.5,160.8,12,Lise,29905.57,4168834.04,122.3,Bursa,260.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mehmet,Yılmaz,SYN0321,55,İdari personel,Erkek,95.5,180.4,14,Ön Lisans,42819.56,2126716.28,64.5,Diyarbakır,228.7,Yeditepe Üniversitesi,Bilgisayar Programcılığı
+Can,Aksoy,SYN0322,22,Öğretmen,Erkek,93.5,184.3,16,Lisans,53868.96,340889.95,118.3,Antalya,309.1,Ankara Üniversitesi,Matematik
+Kerem,Kurt,SYN0323,72,Yönetici,Erkek,69.3,175.6,18,Yüksek Lisans,60536.89,911686.57,135.2,İstanbul,271.2,Hacettepe Üniversitesi,İşletme
+Emre,Koç,SYN0324,43,Muhasebeci,Erkek,86.7,179.4,16,Lisans,70560.95,4039012.97,107.4,Eskişehir,220.9,Orta Doğu Teknik Üniversitesi,İktisat
+Kerem,Çelik,SYN0325,44,Muhasebeci,Erkek,83.4,182.5,16,Lisans,44209.51,18477337.48,128.9,İzmir,324.5,Yeditepe Üniversitesi,Matematik
+Murat,Şahin,SYN0326,68,Emekli,Erkek,121.5,184.8,12,Lise,20404.55,6858347.18,129.0,Diyarbakır,232.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mehmet,Güneş,SYN0327,49,Yazılım geliştirici,Erkek,91.0,174.7,18,Yüksek Lisans,63517.84,77925.96,96.0,Gaziantep,319.4,Ege Üniversitesi,İktisat
+Ece,Şahin,SYN0328,68,Emekli,Kadın,75.8,179.6,16,Lisans,34561.64,1006970.04,73.5,Trabzon,252.4,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Zeynep,Öztürk,SYN0329,31,Öğretmen,Kadın,73.8,179.2,16,Lisans,78879.06,6953554.51,151.2,İstanbul,283.9,Dokuz Eylül Üniversitesi,İşletme
+Elif,Güneş,SYN0330,22,Öğretmen,Kadın,60.2,163.0,16,Lisans,74427.04,4136956.6,145.7,Adana,254.4,Orta Doğu Teknik Üniversitesi,İktisat
+Can,Şahin,SYN0331,40,Mühendis,Erkek,83.3,175.6,16,Lisans,53913.85,1159012.43,79.3,Diyarbakır,256.5,Marmara Üniversitesi,Matematik
+Ahmet,Güneş,SYN0332,63,Öğretmen,Erkek,83.7,170.9,16,Lisans,100763.05,28309733.85,145.6,Eskişehir,265.6,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Emre,Güneş,SYN0333,54,İdari personel,Erkek,89.4,177.2,14,Ön Lisans,77004.04,140213487.78,156.6,Bursa,341.4,Ege Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Can,Aksoy,SYN0334,30,Satış danışmanı,Erkek,88.0,184.3,12,Lise,29178.68,6296310.8,146.3,Samsun,240.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Demir,SYN0335,25,Yazılım geliştirici,Erkek,69.7,173.1,18,Yüksek Lisans,92393.31,481668.35,91.3,Adana,319.9,İstanbul Üniversitesi,Veri Bilimi
+Zeynep,Güneş,SYN0336,25,Yönetici,Kadın,58.1,156.4,18,Yüksek Lisans,78244.44,2793838.19,49.1,Samsun,339.4,Anadolu Üniversitesi,İşletme
+Merve,Özdemir,SYN0337,39,Muhasebeci,Kadın,78.3,171.3,16,Lisans,48706.3,7438995.67,88.8,Gaziantep,301.8,Ege Üniversitesi,İktisat
+Kerem,Arslan,SYN0338,19,Öğrenci,Erkek,63.2,178.7,12,Lise,0.0,4056900.18,150.6,Gaziantep,248.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Selin,Demir,SYN0339,58,İşsiz,Kadın,80.1,173.3,8,Ortaokul,0.0,1640673.2,95.3,İstanbul,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Güneş,SYN0340,37,İşçi,Kadın,62.1,153.1,5,İlkokul,20470.67,3234727.29,122.8,Ankara,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ayşe,Kaya,SYN0341,49,Mühendis,Kadın,58.1,154.9,18,Yüksek Lisans,121812.05,21443133.71,182.6,Samsun,314.2,İstanbul Üniversitesi,İstatistik
+Ali,Güneş,SYN0342,67,Emekli,Erkek,81.3,178.1,12,Lise,34016.41,1666631.89,34.9,Diyarbakır,292.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Elif,Doğan,SYN0343,69,Emekli,Kadın,71.8,170.7,12,Lise,21616.31,1122071.32,69.3,İstanbul,225.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Merve,Koç,SYN0344,27,Yazılım geliştirici,Kadın,69.4,172.4,16,Lisans,51515.96,1431055.04,113.2,Antalya,280.8,Anadolu Üniversitesi,İşletme
+Deniz,Aksoy,SYN0345,35,Araştırmacı,Kadın,68.9,160.2,23,Doktora,142793.12,870377.35,148.1,Eskişehir,294.1,Orta Doğu Teknik Üniversitesi,İşletme
+Kerem,Özdemir,SYN0346,54,İdari personel,Erkek,80.9,171.9,12,Lise,26904.69,9069556.04,142.1,Ankara,288.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ayşe,Şahin,SYN0347,25,Tekniker,Kadın,60.9,173.0,14,Ön Lisans,33945.87,116302476.78,179.0,Diyarbakır,297.3,İstanbul Üniversitesi,İşletme Yönetimi
+Emre,Kurt,SYN0348,41,Akademisyen,Erkek,54.5,170.1,25,Doktora,75629.89,1294603.67,147.6,Mersin,363.0,Anadolu Üniversitesi,İktisat
+Oğuz,Öztürk,SYN0349,52,Esnaf,Erkek,80.2,176.6,8,Ortaokul,32517.66,108198.84,77.2,Kayseri,187.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Yılmaz,SYN0350,24,Yazılım geliştirici,Kadın,85.9,172.3,16,Lisans,32558.92,1294836.88,110.1,Samsun,275.2,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Fatma,Kurt,SYN0351,46,Öğretmen,Kadın,54.0,155.4,16,Lisans,95814.66,14819162.74,168.2,Adana,230.5,Ankara Üniversitesi,İktisat
+Kerem,Aksoy,SYN0352,47,Sağlık teknikeri,Erkek,63.4,167.1,14,Ön Lisans,40396.31,1823654.5,78.6,Kayseri,269.9,Anadolu Üniversitesi,Bilgisayar Programcılığı
+Özge,Yılmaz,SYN0353,72,Yönetici,Kadın,56.8,157.7,25,Doktora,142737.32,923944.64,108.3,Bursa,381.4,Dokuz Eylül Üniversitesi,İktisat
+Merve,Özdemir,SYN0354,25,İdari personel,Kadın,68.3,160.6,12,Lise,24490.48,4950212.83,91.0,Adana,186.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Arslan,SYN0355,61,Emekli,Erkek,81.2,174.4,16,Lisans,33033.27,2380071.0,128.2,Konya,302.3,Hacettepe Üniversitesi,Sınıf Öğretmenliği
+Oğuz,Demir,SYN0356,71,İdari personel,Erkek,69.9,172.7,12,Lise,52144.34,2335196.71,107.4,Bursa,281.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Arslan,SYN0357,67,Emekli,Erkek,98.9,177.0,14,Ön Lisans,40513.67,11039041.2,119.1,Ankara,249.0,Anadolu Üniversitesi,İşletme Yönetimi
+Selin,Doğan,SYN0358,20,Sağlık teknikeri,Kadın,70.0,161.8,14,Ön Lisans,44632.99,62009557.54,132.4,Antalya,271.9,Ege Üniversitesi,İşletme Yönetimi
+Selin,Aksoy,SYN0359,40,Yazılım geliştirici,Kadın,80.5,163.3,16,Lisans,48770.83,700078.07,122.2,Bursa,233.5,İstanbul Üniversitesi,İktisat
+Fatma,Çelik,SYN0360,18,Öğrenci,Kadın,59.9,173.5,12,Lise,0.0,3060566.5,117.4,Bursa,185.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Oğuz,Yılmaz,SYN0361,32,Araştırmacı,Erkek,91.4,174.6,25,Doktora,176088.07,3785663.2,80.8,Konya,368.7,Yeditepe Üniversitesi,İktisat
+Esra,Özdemir,SYN0362,43,Çiftçi,Kadın,71.4,158.4,5,İlkokul,29182.56,14624683.54,122.7,İzmir,218.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Güneş,SYN0363,34,Satış danışmanı,Kadın,51.8,149.2,8,Ortaokul,23408.73,870546.14,122.0,Gaziantep,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Kurt,SYN0364,56,Muhasebeci,Erkek,88.6,182.1,16,Lisans,40779.64,14325639.06,160.7,Bursa,267.2,Ege Üniversitesi,Bilgisayar Mühendisliği
+Merve,Koç,SYN0365,54,Öğretmen,Kadın,73.7,178.2,16,Lisans,46578.7,591993.35,76.5,Kayseri,358.2,Anadolu Üniversitesi,Matematik
+Özge,Şahin,SYN0366,48,Mühendis,Kadın,59.5,148.2,16,Lisans,66731.78,6759841.23,109.3,Kayseri,269.7,Dokuz Eylül Üniversitesi,İktisat
+Fatma,Yıldız,SYN0367,25,Çiftçi,Kadın,82.0,168.0,5,İlkokul,30519.5,490998.22,137.3,Diyarbakır,155.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Şahin,SYN0368,33,Şoför,Erkek,69.2,176.3,8,Ortaokul,30665.99,1241963.56,129.7,Adana,188.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mehmet,Kurt,SYN0369,32,Tekniker,Erkek,75.1,184.8,14,Ön Lisans,38198.35,183124028.68,262.6,Antalya,150.0,Anadolu Üniversitesi,Tıbbi Laboratuvar Teknikleri
+İrem,Özdemir,SYN0370,55,Yazılım geliştirici,Kadın,62.9,155.4,18,Yüksek Lisans,90318.67,1479023.93,175.2,Mersin,259.3,İstanbul Üniversitesi,İşletme
+Fatma,Özdemir,SYN0371,42,Yönetici,Kadın,62.0,156.0,18,Yüksek Lisans,97115.69,2211281.81,102.3,Konya,335.8,Yeditepe Üniversitesi,İşletme
+Merve,Güneş,SYN0372,72,Emekli,Kadın,52.4,154.2,12,Lise,21060.99,8525218.62,182.1,Bursa,236.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Aksoy,SYN0373,74,Emekli,Erkek,92.1,181.5,12,Lise,18201.05,21295860.54,188.1,İstanbul,236.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ece,Doğan,SYN0374,63,Emekli,Kadın,73.5,160.9,12,Lise,21055.25,1426019.21,103.3,Konya,188.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Öztürk,SYN0375,26,İdari personel,Kadın,54.5,157.7,12,Lise,46399.5,2174432.02,147.2,Bursa,324.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Doğan,SYN0376,71,Emekli,Erkek,75.2,163.1,8,Ortaokul,20989.98,12856290.52,135.3,Diyarbakır,324.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Aksoy,SYN0377,22,Öğretmen,Erkek,86.3,183.8,16,Lisans,53799.04,34916398.05,158.2,İstanbul,197.3,Orta Doğu Teknik Üniversitesi,İşletme
+Derya,Demir,SYN0378,31,Yazılım geliştirici,Kadın,69.5,169.0,18,Yüksek Lisans,52457.9,3272377.66,97.8,Trabzon,277.4,İstanbul Üniversitesi,İstatistik
+Esra,Demir,SYN0379,73,Emekli,Kadın,68.9,158.1,8,Ortaokul,18282.95,12940783.43,119.1,Diyarbakır,196.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Özdemir,SYN0380,50,Şoför,Erkek,65.8,170.2,12,Lise,75344.52,23886181.53,129.3,Bursa,222.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Aydın,SYN0381,65,Emekli,Erkek,81.3,179.6,18,Yüksek Lisans,59264.82,4837420.93,115.1,Kayseri,285.4,Orta Doğu Teknik Üniversitesi,Bilgisayar Mühendisliği
+Deniz,Koç,SYN0382,74,Emekli,Erkek,82.9,172.6,16,Lisans,36535.28,2297588.6,119.3,İstanbul,289.5,Dokuz Eylül Üniversitesi,İktisat
+İrem,Kurt,SYN0383,38,Yönetici,Kadın,61.4,156.0,24,Doktora,64320.53,2581983.95,66.2,Mersin,406.5,Ankara Üniversitesi,Bilgisayar Mühendisliği
+Zeynep,Aksoy,SYN0384,35,Yazılım geliştirici,Kadın,64.0,164.3,18,Yüksek Lisans,135214.42,6334932.37,113.9,Adana,377.9,Dokuz Eylül Üniversitesi,İktisat
+Mustafa,Doğan,SYN0385,69,Emekli,Erkek,63.0,174.4,12,Lise,29142.68,7578812.04,122.5,Eskişehir,163.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Aydın,SYN0386,40,İdari personel,Erkek,83.7,189.2,12,Lise,47469.23,282215.05,86.0,İstanbul,257.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Aksoy,SYN0387,41,Muhasebeci,Kadın,60.1,160.0,16,Lisans,66414.69,1997865.31,129.9,Kayseri,328.0,Ege Üniversitesi,İşletme
+Oğuz,Güneş,SYN0388,22,Muhasebeci,Erkek,79.7,172.3,16,Lisans,87901.71,62691.38,95.2,Adana,299.8,Anadolu Üniversitesi,Bilgisayar Mühendisliği
+Burak,Aksoy,SYN0389,72,Mühendis,Erkek,58.4,158.3,16,Lisans,67636.35,2890886.76,120.0,Ankara,380.8,Hacettepe Üniversitesi,Matematik
+Merve,Kaya,SYN0390,31,Yazılım geliştirici,Kadın,56.3,168.4,16,Lisans,62800.77,11259819.75,165.6,Samsun,326.1,Ankara Üniversitesi,Sınıf Öğretmenliği
+Merve,Demir,SYN0391,50,Mühendis,Kadın,54.0,144.7,18,Yüksek Lisans,80815.8,11337207.19,106.0,Diyarbakır,360.1,Anadolu Üniversitesi,Bilgisayar Mühendisliği
+Burak,Demir,SYN0392,57,İşsiz,Erkek,75.9,175.6,8,Ortaokul,0.0,4031659.11,112.2,Mersin,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Doğan,SYN0393,20,İdari personel,Kadın,73.0,159.6,14,Ön Lisans,42594.26,887522.63,107.9,Adana,284.5,Marmara Üniversitesi,İşletme Yönetimi
+Derya,Demir,SYN0394,69,Muhasebeci,Kadın,53.3,152.2,16,Lisans,75395.11,114503996.61,203.5,Konya,211.9,İstanbul Üniversitesi,İşletme
+Zeynep,Doğan,SYN0395,66,Araştırmacı,Kadın,64.2,152.1,25,Doktora,131718.31,1298036.42,64.3,Gaziantep,424.9,Yeditepe Üniversitesi,İşletme
+Mehmet,Arslan,SYN0396,75,Esnaf,Erkek,83.5,175.8,5,İlkokul,44628.77,5215255.47,115.3,Antalya,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Merve,Aydın,SYN0397,71,Tekniker,Kadın,72.4,170.4,14,Ön Lisans,48586.74,8633767.69,126.0,Trabzon,265.9,Hacettepe Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Mustafa,Aydın,SYN0398,44,Akademisyen,Erkek,67.4,173.0,22,Doktora,75031.65,9118738.21,168.6,Adana,382.7,Dokuz Eylül Üniversitesi,İşletme
+İrem,Kaya,SYN0399,34,İdari personel,Kadın,61.1,161.9,14,Ön Lisans,45442.62,3461294.5,80.4,Diyarbakır,322.4,Ege Üniversitesi,İşletme Yönetimi
+Can,Kılıç,SYN0400,33,Mühendis,Erkek,61.7,175.0,18,Yüksek Lisans,59017.24,52438044.79,186.9,Adana,356.1,Hacettepe Üniversitesi,İstatistik
+Esra,Şahin,SYN0401,57,Mühendis,Kadın,61.2,157.3,16,Lisans,67682.38,286987017.7,191.5,Eskişehir,261.9,Dokuz Eylül Üniversitesi,İktisat
+Merve,Özdemir,SYN0402,66,Yazılım geliştirici,Kadın,79.5,163.2,16,Lisans,51837.44,7706381.09,164.2,Diyarbakır,236.0,Hacettepe Üniversitesi,Sınıf Öğretmenliği
+Selin,Şahin,SYN0403,74,Emekli,Kadın,61.6,152.3,1000,Ön Lisans,31584.51,18605815.06,152.8,Mersin,216.3,İstanbul Üniversitesi,İşletme Yönetimi
+Ahmet,Kaya,SYN0404,51,İdari personel,Erkek,96.5,178.0,12,Lise,57389.47,4385255.62,130.0,Trabzon,266.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Burak,Şahin,SYN0405,63,Tekniker,Erkek,81.1,179.3,14,Ön Lisans,52202.95,2925399.72,106.8,Diyarbakır,236.1,Ege Üniversitesi,Bilgisayar Programcılığı
+Esra,Öztürk,SYN0406,71,Emekli,Kadın,46.5,156.4,16,Lisans,26722.93,24704093.82,172.1,Trabzon,252.4,Dokuz Eylül Üniversitesi,Matematik
+Kerem,Yıldız,SYN0407,59,Ev işleriyle meşgul,Erkek,78.0,178.1,5,İlkokul,0.0,14540792.49,111.0,Samsun,195.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Özge,Demir,SYN0408,29,İdari personel,Kadın,64.3,157.4,12,Lise,38918.92,1130019.18,96.7,İstanbul,198.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Demir,SYN0409,49,Öğretmen,Erkek,75.7,179.9,16,Lisans,72589.0,903806.19,107.2,Diyarbakır,256.4,Anadolu Üniversitesi,Matematik
+Burak,Arslan,SYN0410,63,İşletme sahibi,Erkek,76.0,176.6,12,Lise,30338.39,90548063.97,118.7,İzmir,259.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Aksoy,SYN0411,51,Satış danışmanı,Kadın,69.0,159.2,12,Lise,38364.03,840559.44,100.4,Eskişehir,248.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Aksoy,SYN0412,37,İşletme sahibi,Kadın,72.9,165.8,12,Lise,23658.28,4722764.52,171.0,Konya,220.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Kılıç,SYN0413,51,Şoför,Kadın,59.5,165.3,12,Lise,51717.44,310688.03,68.1,Diyarbakır,171.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Çelik,SYN0414,46,İşletme sahibi,Erkek,61.8,169.1,12,Lise,35860.68,26928116.39,145.0,Antalya,274.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Çelik,SYN0415,40,Muhasebeci,Erkek,76.1,169.1,16,Lisans,103256.05,1470007.87,76.4,Eskişehir,261.5,İstanbul Üniversitesi,Sınıf Öğretmenliği
+Derya,Aksoy,SYN0416,47,Şoför,Kadın,72.8,165.2,12,Lise,39918.04,1676018.0,127.8,Antalya,198.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Kılıç,SYN0417,75,Emekli,Kadın,67.0,163.4,16,Lisans,68137.9,529708.38,114.7,Konya,304.4,Ankara Üniversitesi,Sınıf Öğretmenliği
+Esra,Aksoy,SYN0418,20,Sağlık teknikeri,Kadın,61.0,158.3,14,Ön Lisans,57689.75,1298192.64,102.4,Mersin,291.0,Yeditepe Üniversitesi,İşletme Yönetimi
+Burak,Özdemir,SYN0419,20,İdari personel,Erkek,67.6,171.4,14,Ön Lisans,53240.89,3183419.99,116.2,Eskişehir,289.5,Yeditepe Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Burak,Şahin,SYN0420,32,Öğretmen,Erkek,85.3,178.7,16,Lisans,81316.4,11681722.56,140.5,Gaziantep,260.3,Ege Üniversitesi,Matematik
+Ahmet,Kaya,SYN0421,70,Emekli,Erkek,81.2,176.3,14,Ön Lisans,20985.94,488532.9,81.1,Bursa,240.7,Anadolu Üniversitesi,İşletme Yönetimi
+İrem,Kurt,SYN0422,60,Emekli,Kadın,61.0,167.3,5,İlkokul,12724.06,2023607.46,147.2,Gaziantep,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Oğuz,Özdemir,SYN0423,72,Emekli,Erkek,80.5,172.5,16,Lisans,43595.42,1579952.83,94.2,Ankara,310.1,Orta Doğu Teknik Üniversitesi,İstatistik
+Derya,Doğan,SYN0424,33,Muhasebeci,Kadın,56.7,161.2,16,Lisans,54781.02,801815.15,99.2,Antalya,243.0,Dokuz Eylül Üniversitesi,Matematik
+Özge,Yıldız,SYN0425,58,İşçi,Kadın,88.1,175.5,8,Ortaokul,36785.27,424223.98,115.3,Mersin,151.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Şahin,SYN0426,62,Şoför,Kadın,70.2,165.5,12,Lise,61514.85,7374145.24,131.3,Gaziantep,212.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Yılmaz,SYN0427,48,Mühendis,Kadın,63.2,160.7,16,Lisans,65745.15,889290.91,85.0,Trabzon,225.9,Ankara Üniversitesi,Sınıf Öğretmenliği
+Elif,Aksoy,SYN0428,34,Tekniker,Kadın,71.1,158.1,14,Ön Lisans,43098.56,1086708.22,79.7,İstanbul,238.0,İstanbul Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Kerem,Yıldız,SYN0429,38,Yönetici,Erkek,98.0,174.3,25,Doktora,69459.27,2372170.11,107.9,İstanbul,371.8,Ankara Üniversitesi,İşletme
+Zeynep,Güneş,SYN0430,71,İşçi,Kadın,74.5,165.5,5,İlkokul,51129.34,490526.16,103.5,Samsun,239.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Aksoy,SYN0431,52,Satış danışmanı,Kadın,74.1,169.1,8,Ortaokul,43053.52,2240720.51,112.5,Adana,180.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Merve,Çelik,SYN0432,65,Emekli,Kadın,60.7,165.3,12,Lise,20621.2,7993905.75,,Trabzon,209.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Yılmaz,SYN0433,44,Mühendis,Kadın,74.1,166.7,16,Lisans,106786.22,2588178.76,108.3,Bursa,236.0,Ege Üniversitesi,Bilgisayar Mühendisliği
+Emre,Koç,SYN0434,53,Yazılım geliştirici,Erkek,57.4,162.9,18,Yüksek Lisans,75768.75,3618452.67,96.5,Konya,332.3,Ege Üniversitesi,Veri Bilimi
+Mehmet,Yıldız,SYN0435,48,Şoför,Erkek,80.0,180.1,12,Lise,29185.03,1205437.6,138.1,Trabzon,227.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Demir,SYN0436,60,Emekli,Erkek,91.9,170.1,16,Lisans,42413.36,484058.28,111.8,Samsun,265.3,Yeditepe Üniversitesi,İstatistik
+Ayşe,Güneş,SYN0437,22,İşçi,Kadın,49.4,163.5,5,İlkokul,23852.46,74490026.55,140.8,Kayseri,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Zeynep,Yılmaz,SYN0438,31,Mühendis,Kadın,79.4,162.3,16,Lisans,67375.35,7945643.81,112.3,Trabzon,217.3,Marmara Üniversitesi,Matematik
+Murat,Öztürk,SYN0439,50,Esnaf,Erkek,77.9,171.5,8,Ortaokul,51864.25,31840917.63,123.4,Kayseri,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Özge,Yıldız,SYN0440,30,İdari personel,Kadın,71.2,160.8,12,Lise,36765.4,3928602.77,135.6,Kayseri,190.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Derya,Özdemir,SYN0441,28,Muhasebeci,Kadın,63.6,166.9,16,Lisans,56748.2,8697474.49,141.4,Mersin,276.9,Hacettepe Üniversitesi,İşletme
+Mehmet,Demir,SYN0442,70,Emekli,Erkek,60.8,173.7,24,Doktora,82579.82,123504801.5,152.2,İstanbul,321.0,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Ahmet,Güneş,SYN0443,73,Emekli,Erkek,86.1,180.6,12,Lise,22930.69,2338731.63,112.0,Antalya,246.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Şahin,SYN0444,33,İdari personel,Kadın,60.4,157.4,12,Lise,16408.25,15187960.62,140.3,Gaziantep,200.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Yılmaz,SYN0445,26,Mühendis,Kadın,73.0,165.0,16,Lisans,38779.05,10391291.21,83.8,Kayseri,293.9,Anadolu Üniversitesi,Matematik
+Oğuz,Yılmaz,SYN0446,29,İşsiz,Erkek,75.5,180.2,16,Lisans,0.0,979262.54,114.7,Diyarbakır,220.3,Dokuz Eylül Üniversitesi,Sınıf Öğretmenliği
+Deniz,Öztürk,SYN0447,67,Emekli,Erkek,73.3,183.1,16,Lisans,41783.43,1587397.8,112.6,Trabzon,264.2,Yeditepe Üniversitesi,Matematik
+İrem,Şahin,SYN0448,62,Emekli,Kadın,61.0,159.2,23,Doktora,40933.77,3016985.05,119.1,İzmir,330.0,Dokuz Eylül Üniversitesi,İşletme
+Mehmet,Kurt,SYN0449,34,İşletme sahibi,Erkek,77.4,161.9,12,Lise,40793.66,226439.61,116.8,Ankara,176.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Kaya,SYN0450,60,Emekli,Kadın,67.7,164.0,16,Lisans,32244.93,2027789.22,149.9,İstanbul,343.2,Orta Doğu Teknik Üniversitesi,İstatistik
+Kerem,Arslan,SYN0451,74,Emekli,Erkek,95.7,177.1,5,İlkokul,20841.94,127471.74,47.3,Konya,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Deniz,Kurt,SYN0452,52,İdari personel,Kadın,78.5,164.5,14,Ön Lisans,25184.04,2063946.39,115.8,İstanbul,226.4,Hacettepe Üniversitesi,Bilgisayar Programcılığı
+Ayşe,Koç,SYN0453,37,İdari personel,Kadın,61.0,161.0,14,Ön Lisans,27501.69,916213.86,104.6,İstanbul,273.9,Dokuz Eylül Üniversitesi,İşletme Yönetimi
+İrem,Şahin,SYN0454,30,Mühendis,Kadın,67.6,171.3,18,Yüksek Lisans,69419.11,1353136.31,130.8,İzmir,290.4,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Fatma,Demir,SYN0455,45,Yazılım geliştirici,Kadın,74.6,170.8,16,Lisans,54394.49,30429398.53,143.1,Samsun,361.1,Marmara Üniversitesi,Matematik
+İrem,Öztürk,SYN0456,51,Şoför,Kadın,76.4,183.7,12,Lise,51501.87,261305.68,125.8,Eskişehir,171.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Yıldız,SYN0457,22,Satış danışmanı,Kadın,62.3,156.0,12,Lise,28593.42,2616362.02,149.0,Adana,237.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Öztürk,SYN0458,67,Şoför,Kadın,77.3,161.4,12,Lise,41883.51,1577824.25,92.8,Antalya,213.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Aksoy,SYN0459,65,Emekli,Erkek,85.3,174.1,16,Lisans,23805.25,939548.03,97.8,İzmir,346.0,Hacettepe Üniversitesi,İktisat
+İrem,Çelik,SYN0460,28,Yazılım geliştirici,Kadın,63.6,150.1,16,Lisans,39682.37,7500025.92,147.4,Gaziantep,245.4,Ege Üniversitesi,Bilgisayar Mühendisliği
+Derya,Aksoy,SYN0461,47,Muhasebeci,Kadın,81.0,159.4,16,Lisans,98746.26,1101342.38,97.7,Bursa,270.0,Hacettepe Üniversitesi,İstatistik
+Esra,Öztürk,SYN0462,42,Satış danışmanı,Kadın,74.7,168.3,12,Lise,67117.92,2899951.76,77.4,Diyarbakır,219.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Güneş,SYN0463,72,Emekli,Erkek,97.1,186.5,12,Lise,30550.48,644458.77,129.0,Kayseri,225.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Doğan,SYN0464,30,Esnaf,Erkek,87.9,175.8,8,Ortaokul,36646.03,7179167.77,104.9,Bursa,200.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Aydın,SYN0465,66,Emekli,Kadın,70.9,170.2,12,Lise,38930.47,2492306.95,102.8,Bursa,217.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Arslan,SYN0466,56,İşçi,Kadın,69.5,166.6,8,Ortaokul,35976.54,22854634.33,178.8,Bursa,216.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Arslan,SYN0467,55,Çiftçi,Erkek,81.8,175.3,5,İlkokul,45671.96,5674255.92,124.1,Samsun,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ece,Şahin,SYN0468,58,Şoför,Kadın,69.9,153.3,12,Lise,58923.93,1916353.25,81.2,Antalya,178.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Kerem,Doğan,SYN0469,46,Öğretmen,Erkek,70.0,174.4,18,Yüksek Lisans,95271.52,790401.67,116.0,Antalya,266.2,Marmara Üniversitesi,İşletme
+Emre,Güneş,SYN0470,71,İdari personel,Erkek,77.1,,14,Ön Lisans,47678.4,1289924.56,104.0,Samsun,268.1,Marmara Üniversitesi,İşletme Yönetimi
+Kerem,Demir,SYN0471,44,İşletme sahibi,Erkek,74.4,177.2,12,Lise,33430.77,46810352.59,157.4,Ankara,230.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Özdemir,SYN0472,56,Şoför,Kadın,64.8,161.8,12,Lise,37999.9,9985390.1,94.6,İzmir,219.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ali,Demir,SYN0473,57,Mühendis,Erkek,75.7,178.0,16,Lisans,64512.52,23559926.92,161.3,Mersin,299.8,Yeditepe Üniversitesi,İstatistik
+Mustafa,Aydın,SYN0474,27,Satış danışmanı,Erkek,87.8,169.7,12,Lise,45376.47,615305.18,122.7,Samsun,206.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Doğan,SYN0475,36,İdari personel,Kadın,64.8,175.9,12,Lise,59544.24,11294874.32,117.0,Adana,257.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Kerem,Arslan,SYN0476,55,Yazılım geliştirici,Erkek,76.1,180.1,16,Lisans,74751.91,4239345.99,141.8,Eskişehir,296.8,Marmara Üniversitesi,İktisat
+Elif,Özdemir,SYN0477,29,Yazılım geliştirici,Kadın,57.9,163.2,16,Lisans,63628.82,2611375.7,98.7,Samsun,327.0,Orta Doğu Teknik Üniversitesi,Bilgisayar Mühendisliği
+Emre,Özdemir,SYN0478,43,Mühendis,Erkek,71.4,172.6,18,Yüksek Lisans,74308.49,1465637.42,125.6,İzmir,314.8,Dokuz Eylül Üniversitesi,Bilgisayar Mühendisliği
+Ayşe,Kılıç,SYN0479,38,Yazılım geliştirici,Kadın,90.5,174.5,16,Lisans,70382.55,15124392.68,153.4,Ankara,300.9,Anadolu Üniversitesi,İstatistik
+Fatma,Aydın,SYN0480,61,Emekli,Kadın,58.5,164.3,24,Doktora,63413.01,174361.05,98.7,Diyarbakır,410.4,Yeditepe Üniversitesi,Bilgisayar Mühendisliği
+Derya,Öztürk,SYN0481,58,Yönetici,Kadın,71.7,166.4,18,Yüksek Lisans,77315.92,43693457.27,122.5,Samsun,275.8,Marmara Üniversitesi,Veri Bilimi
+Zeynep,Doğan,SYN0482,34,İşçi,Kadın,77.7,160.3,8,Ortaokul,28233.53,1090834.4,94.4,Antalya,153.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ayşe,Yılmaz,SYN0483,55,Yazılım geliştirici,Kadın,48.3,159.5,16,Lisans,55966.65,4955135.66,137.2,Adana,298.0,Hacettepe Üniversitesi,İstatistik
+Emre,Kurt,SYN0484,68,Emekli,Erkek,80.3,174.9,14,Ön Lisans,21281.6,15989261.37,140.1,İstanbul,346.7,Anadolu Üniversitesi,İşletme Yönetimi
+Elif,Kılıç,SYN0485,19,Çiftçi,Kadın,70.6,169.3,5,İlkokul,31822.6,1301083.71,85.7,Ankara,152.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ayşe,Kılıç,SYN0486,65,Emekli,Kadın,54.5,154.3,14,Ön Lisans,30228.35,510640.99,110.5,Konya,302.2,Marmara Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Selin,Demir,SYN0487,67,Emekli,Kadın,62.3,161.4,16,Lisans,39442.26,1851994.31,59.0,Eskişehir,350.1,Marmara Üniversitesi,İşletme
+Kerem,Demir,SYN0488,41,Muhasebeci,Erkek,76.5,174.8,16,Lisans,65014.63,2381148.67,72.8,Bursa,307.9,Yeditepe Üniversitesi,İstatistik
+Burak,Özdemir,SYN0489,72,Emekli,Erkek,86.2,179.9,14,Ön Lisans,32886.83,2373627.17,52.9,Diyarbakır,202.7,Ege Üniversitesi,İşletme Yönetimi
+Ahmet,Kaya,SYN0490,74,Muhasebeci,Erkek,83.1,189.1,16,Lisans,49421.09,3755815.38,106.6,Konya,235.2,Marmara Üniversitesi,Matematik
+Mustafa,Kılıç,SYN0491,41,Yazılım geliştirici,Erkek,84.0,174.2,16,Lisans,62494.11,3177484.27,98.0,Adana,278.0,Hacettepe Üniversitesi,İstatistik
+İrem,Aydın,SYN0492,69,Emekli,Kadın,87.5,173.2,16,Lisans,47762.45,99055308.57,194.1,Mersin,263.8,Orta Doğu Teknik Üniversitesi,İstatistik
+Elif,Öztürk,SYN0493,23,Esnaf,Kadın,54.4,154.9,5,İlkokul,30296.58,266964.52,78.6,Mersin,177.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Kurt,SYN0494,67,Emekli,Erkek,64.0,173.0,12,Lise,21896.91,313861.64,106.4,İstanbul,216.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Can,Güneş,SYN0495,66,Emekli,Erkek,72.1,168.3,12,Lise,26127.32,10237968.33,86.4,İzmir,317.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mehmet,Özdemir,SYN0496,35,Öğretmen,Erkek,83.0,180.0,18,Yüksek Lisans,62321.09,6671777.18,147.7,Gaziantep,227.8,Hacettepe Üniversitesi,Veri Bilimi
+Ayşe,Kılıç,SYN0497,52,Satış danışmanı,Kadın,67.6,160.6,12,Lise,37384.34,4980850.1,136.4,Bursa,223.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Merve,Arslan,SYN0498,42,Şoför,Kadın,66.5,163.9,12,Lise,25369.72,19461508.0,151.6,Antalya,340.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Koç,SYN0499,62,Mühendis,Erkek,84.5,170.8,16,Lisans,71286.29,13414903.79,123.8,İstanbul,266.7,Ege Üniversitesi,İşletme
+Elif,Arslan,SYN0500,40,Öğretmen,Kadın,58.5,165.6,18,Yüksek Lisans,129656.51,557989.6,101.8,Adana,323.7,Hacettepe Üniversitesi,Bilgisayar Mühendisliği
+Merve,Kaya,SYN0501,24,İdari personel,Kadın,50.7,155.6,14,Ön Lisans,53285.61,167814.88,47.6,Konya,310.0,Hacettepe Üniversitesi,İşletme Yönetimi
+Derya,Arslan,SYN0502,42,İşletme sahibi,Kadın,81.4,175.4,12,Lise,24371.58,4086690.72,102.8,İstanbul,205.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Yılmaz,SYN0503,64,Emekli,Erkek,75.4,175.7,8,Ortaokul,21270.64,3819475.74,96.3,Trabzon,208.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Kaya,SYN0504,74,Emekli,Kadın,57.4,149.5,14,Ön Lisans,36988.13,20216856.57,185.7,İzmir,207.5,Marmara Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Ali,Arslan,SYN0505,53,Şoför,Erkek,60.2,166.6,12,Lise,29296.67,4937333.73,144.6,Gaziantep,279.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Emre,Arslan,SYN0506,48,Yazılım geliştirici,Erkek,94.5,182.0,16,Lisans,73073.68,7327117.03,153.3,Ankara,250.0,Ege Üniversitesi,İşletme
+Mehmet,Demir,SYN0507,61,Emekli,Erkek,86.8,181.2,12,Lise,12920.79,6077005.77,105.1,Diyarbakır,264.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Özge,Yıldız,SYN0508,31,Esnaf,Kadın,65.1,173.7,8,Ortaokul,33326.0,9699163.1,115.6,Trabzon,217.5,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Doğan,SYN0509,68,Emekli,Kadın,63.1,161.9,12,Lise,21265.08,612436.47,74.2,Mersin,218.2,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Aksoy,SYN0510,58,İdari personel,Erkek,52.6,165.5,12,Lise,26218.31,2269171.38,116.1,Adana,247.6,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Aksoy,SYN0511,53,Satış danışmanı,Erkek,84.1,175.1,12,Lise,34193.78,1028460.54,137.2,İzmir,224.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Yılmaz,SYN0512,43,İdari personel,Erkek,67.0,172.2,14,Ön Lisans,54984.77,33474704.79,128.2,Trabzon,197.9,İstanbul Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Murat,Arslan,SYN0513,70,Emekli,Erkek,94.8,181.1,16,Lisans,53028.24,1226894.26,83.5,Bursa,328.5,Marmara Üniversitesi,Bilgisayar Mühendisliği
+Oğuz,Kurt,SYN0514,52,Araştırmacı,Erkek,81.3,180.4,24,Doktora,132040.42,12952038.79,119.0,Diyarbakır,434.3,Marmara Üniversitesi,İşletme
+Selin,Yıldız,SYN0515,41,Sağlık teknikeri,Kadın,57.3,147.4,14,Ön Lisans,33821.43,636434.14,123.2,Mersin,270.0,Orta Doğu Teknik Üniversitesi,Bilgisayar Programcılığı
+Esra,Aydın,SYN0516,43,Satış danışmanı,Kadın,77.9,160.7,12,Lise,31075.27,2312844.68,94.0,Gaziantep,217.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Uğur,Çelik,SYN0517,36,İdari personel,Erkek,91.5,188.2,14,Ön Lisans,68592.11,6472097.88,137.1,İstanbul,240.9,Ankara Üniversitesi,İşletme Yönetimi
+Ayşe,Şahin,SYN0518,75,Emekli,Kadın,79.8,167.7,8,Ortaokul,19500.62,33116563.14,147.6,Ankara,160.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Can,Kurt,SYN0519,61,Emekli,Erkek,79.1,176.0,5,İlkokul,25966.56,834698.1,94.6,İstanbul,197.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Mustafa,Kılıç,SYN0520,74,Muhasebeci,Erkek,103.9,177.0,16,Lisans,71327.71,1131407.28,102.5,Trabzon,279.5,Yeditepe Üniversitesi,Matematik
+Ahmet,Kılıç,SYN0521,29,Çiftçi,Erkek,81.6,176.6,5,İlkokul,21727.49,230651.35,70.7,Konya,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Demir,SYN0522,19,Ev işleriyle meşgul,Kadın,65.9,159.0,5,İlkokul,0.0,7386858.69,118.6,Trabzon,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Kaya,SYN0523,41,İdari personel,Erkek,79.0,175.0,14,Ön Lisans,44620.92,14538990.7,125.0,İstanbul,350.3,Ege Üniversitesi,Bilgisayar Programcılığı
+Uğur,Yılmaz,SYN0524,58,Öğretmen,Erkek,65.7,170.4,16,Lisans,65007.71,36794256.61,154.4,Samsun,297.6,Anadolu Üniversitesi,Bilgisayar Mühendisliği
+Ece,Yıldız,SYN0525,55,Şoför,Kadın,78.1,166.3,12,Lise,40165.1,678049.52,99.9,Konya,238.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Kerem,Aydın,SYN0526,52,Muhasebeci,Erkek,88.6,173.1,16,Lisans,55217.53,72306035.35,164.8,Samsun,257.0,Dokuz Eylül Üniversitesi,Bilgisayar Mühendisliği
+Deniz,Şahin,SYN0527,35,İdari personel,Kadın,77.0,164.1,14,Ön Lisans,34878.54,2764683.56,117.8,Samsun,243.7,Anadolu Üniversitesi,Bilgisayar Programcılığı
+Selin,Kaya,SYN0528,35,Araştırmacı,Kadın,69.2,161.3,22,Doktora,185043.48,1909324.98,128.6,Ankara,391.9,Anadolu Üniversitesi,Bilgisayar Mühendisliği
+Burak,Kaya,SYN0529,30,Öğretmen,Erkek,76.9,166.5,18,Yüksek Lisans,128708.25,339205.27,76.4,Antalya,296.6,Yeditepe Üniversitesi,İstatistik
+Deniz,Kılıç,SYN0530,67,Mühendis,Kadın,64.0,151.0,16,Lisans,54941.2,8388999.83,123.2,Gaziantep,296.1,Dokuz Eylül Üniversitesi,İktisat
+Esra,Güneş,SYN0531,60,Emekli,Kadın,68.4,155.8,5,İlkokul,26416.13,2034852.41,95.4,Gaziantep,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Can,Aksoy,SYN0532,50,Sağlık teknikeri,Erkek,96.9,178.7,14,Ön Lisans,73945.84,10349238.38,153.2,Trabzon,205.0,Orta Doğu Teknik Üniversitesi,Bilgisayar Programcılığı
+Kerem,Özdemir,SYN0533,61,Emekli,Erkek,95.5,179.3,5,İlkokul,17837.38,10158420.43,107.2,İzmir,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Esra,Çelik,SYN0534,26,İşletme sahibi,Kadın,77.2,168.3,12,Lise,34291.51,823667.72,97.1,Gaziantep,268.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Merve,Çelik,SYN0535,66,Emekli,Kadın,68.4,152.7,16,Lisans,53588.59,32650883.49,165.0,Eskişehir,204.8,Ankara Üniversitesi,Sınıf Öğretmenliği
+Ali,Özdemir,SYN0536,60,Öğretmen,Erkek,59.3,172.3,16,Lisans,79631.64,4334302.51,118.3,İstanbul,329.4,Ankara Üniversitesi,İşletme
+Burak,Yıldız,SYN0537,43,Sağlık teknikeri,Erkek,79.4,174.3,14,Ön Lisans,36640.73,417772.46,148.1,Samsun,239.7,Hacettepe Üniversitesi,İşletme Yönetimi
+Uğur,Aksoy,SYN0538,32,İşletme sahibi,Erkek,76.6,179.7,12,Lise,30199.9,9826143.65,90.6,Mersin,238.1,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ece,Yılmaz,SYN0539,71,Emekli,Kadın,57.6,154.2,18,Yüksek Lisans,27651.07,3420393.77,132.9,Konya,383.9,Marmara Üniversitesi,İstatistik
+Murat,Aydın,SYN0540,62,Emekli,Erkek,80.6,178.8,12,Lise,29281.25,5924925.21,138.5,Bursa,213.8,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Murat,Aksoy,SYN0541,33,Satış danışmanı,Erkek,72.6,175.6,12,Lise,24265.0,9779682.9,147.0,Kayseri,177.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Ahmet,Demir,SYN0542,40,Yazılım geliştirici,Erkek,72.7,175.8,16,Lisans,56246.72,76836285.56,193.0,Adana,258.4,Hacettepe Üniversitesi,İşletme
+Zeynep,Aksoy,SYN0543,19,İşçi,Kadın,63.5,171.3,5,İlkokul,26575.81,1138975.29,77.7,Mersin,150.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Kerem,Yılmaz,SYN0544,42,Yazılım geliştirici,Erkek,102.3,176.9,16,Lisans,66534.88,831011.53,127.1,Gaziantep,309.4,Yeditepe Üniversitesi,İşletme
+Emre,Kurt,SYN0545,67,Emekli,Erkek,68.8,173.6,12,Lise,17377.09,4692113.71,132.9,Ankara,263.4,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Fatma,Aydın,SYN0546,73,Emekli,Kadın,71.7,166.7,12,Lise,30881.45,5563516.96,135.7,Eskişehir,260.7,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+İrem,Aksoy,SYN0547,74,Emekli,Kadın,73.5,153.7,14,Ön Lisans,20604.96,7080751.97,128.1,Eskişehir,298.2,Dokuz Eylül Üniversitesi,Tıbbi Laboratuvar Teknikleri
+Emre,Aydın,SYN0548,62,Emekli,Erkek,64.7,171.7,12,Lise,12083.68,5829285.82,112.8,Konya,253.3,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Elif,Kurt,SYN0549,42,İdari personel,Kadın,58.7,170.1,12,Lise,48076.14,7103848.79,126.3,Eskişehir,220.9,Üniversite tamamlanmadı,Bölüm tamamlanmadı
+Can,Yılmaz,SYN0550,22,İşsiz,Erkek,77.3,177.1,16,Lisans,0.0,3998455.09,65.6,Samsun,315.5,Marmara Üniversitesi,İşletme
+Ahmet,Doğan,SYN0551,57,Öğretmen,Erkek,65.8,188.4,16,Lisans,78999.05,1397156.37,75.7,Eskişehir,215.7,Orta Doğu Teknik Üniversitesi,Sınıf Öğretmenliği
+Ali,Koç,SYN0552,22,İşsiz,Erkek,81.7,171.2,16,Lisans,0.0,1517872.79,85.2,Trabzon,218.0,Anadolu Üniversitesi,İktisat
+Fatma,Yılmaz,SYN0553,42,Öğretmen,Kadın,68.3,156.0,16,Lisans,64850.47,797951.21,64.0,Kayseri,259.3,Ege Üniversitesi,Matematik
+Esra,Doğan,SYN0554,35,İşletme sahibi,Kadın,80.7,171.4,12,Lise,36886.58,1587128.1,114.9,Samsun,254.0,Üniversite tamamlanmadı,Bölüm tamamlanmadı
